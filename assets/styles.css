@@ -1,3 +1,166 @@
+/* Critical Leaflet layout CSS.
+   This is intentionally bundled so the map remains correctly sized even if the CDN CSS is late. */
+.leaflet-container {
+  overflow: hidden;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.leaflet-tile {
+  width: 256px;
+  height: 256px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+  display: block;
+}
+
+.leaflet-tile-container {
+  pointer-events: none;
+}
+
+.leaflet-pane {
+  z-index: 400;
+}
+
+.leaflet-tile-pane {
+  z-index: 200;
+}
+
+.leaflet-overlay-pane {
+  z-index: 400;
+}
+
+.leaflet-shadow-pane {
+  z-index: 500;
+}
+
+.leaflet-marker-pane {
+  z-index: 600;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 650;
+}
+
+.leaflet-popup-pane {
+  z-index: 700;
+}
+
+.leaflet-map-pane canvas {
+  z-index: 100;
+}
+
+.leaflet-map-pane svg {
+  z-index: 200;
+}
+
+.leaflet-control {
+  position: relative;
+  z-index: 800;
+  pointer-events: auto;
+  float: left;
+  clear: both;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  position: absolute;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.leaflet-top {
+  top: 0;
+}
+
+.leaflet-right {
+  right: 0;
+}
+
+.leaflet-bottom {
+  bottom: 0;
+}
+
+.leaflet-left {
+  left: 0;
+}
+
+.leaflet-control-zoom a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.leaflet-popup {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 1px;
+  text-align: left;
+  border-radius: 12px;
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+}
+
+.leaflet-popup-tip-container {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.leaflet-popup-tip {
+  width: 17px;
+  height: 17px;
+  padding: 1px;
+  margin: -10px auto 0;
+  transform: rotate(45deg);
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 4px 0 0;
+  border: none;
+  text-align: center;
+  width: 18px;
+  height: 14px;
+  font: 16px/14px Tahoma, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.leaflet-control-attribution {
+  padding: 0 5px;
+}
+
 :root {
   --ink: #171411;
   --ink-soft: #2b261f;
@@ -1083,18 +1246,85 @@ h1 {
   }
 }
 
+/* Final mobile map pass. */
+.shown-badge {
+  gap: 5px;
+  letter-spacing: 0;
+}
 
-/* Mobile map hardening pass */
-.shown-badge { gap: 4px; }
-.shown-label { display: inline-block; }
+.shown-label {
+  display: inline-block;
+}
 
 @media (max-width: 760px) {
-  :root { --map-height: clamp(320px, 48svh, 430px); }
+  :root {
+    --map-height: clamp(340px, 48svh, 440px);
+  }
 
-  html, body, .app-shell { overflow-x: hidden; }
+  html,
+  body,
+  .app-shell {
+    overflow-x: hidden;
+  }
+
+  .app-shell {
+    padding-inline: 12px;
+  }
+
+  .masthead-row {
+    align-items: start;
+  }
+
+  h1 {
+    font-size: clamp(40px, 12vw, 56px);
+    letter-spacing: -0.078em;
+  }
+
+  .shown-badge {
+    min-height: 36px;
+    padding-inline: 12px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(23, 20, 17, 0.16);
+  }
 
   .control-panel {
-    box-shadow: 0 12px 34px rgba(42, 31, 20, 0.12);
+    border-radius: 24px;
+    margin-bottom: 14px;
+    box-shadow: 0 16px 38px rgba(42, 31, 20, 0.12);
+  }
+
+  .top-actions {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 3px;
+  }
+
+  .top-actions .btn {
+    flex: 0 0 auto;
+  }
+
+  .filter-grid {
+    gap: 9px;
+  }
+
+  .filter-box {
+    overflow: hidden;
+  }
+
+  .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .chips::-webkit-scrollbar,
+  .top-actions::-webkit-scrollbar {
+    display: none;
   }
 
   .main-grid {
@@ -1106,29 +1336,26 @@ h1 {
     top: auto !important;
     width: 100% !important;
     max-width: 100% !important;
+    min-width: 0 !important;
     margin: 0 0 18px !important;
-    overflow: hidden !important;
     border: 1px solid rgba(37, 31, 24, 0.16);
-    border-radius: 24px !important;
-    background: rgba(255, 253, 247, 0.92);
+    border-radius: 26px !important;
+    overflow: hidden !important;
+    background: rgba(255, 253, 247, 0.94);
     box-shadow: 0 16px 38px rgba(42, 31, 20, 0.14);
+    contain: layout paint;
     isolation: isolate;
   }
 
   .map-toolbar {
-    display: grid !important;
-    grid-template-columns: 1fr auto !important;
-    gap: 10px;
     width: 100%;
     max-width: 100%;
+    display: grid !important;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
     padding: 10px;
-    background: rgba(255, 250, 241, 0.96);
     border-bottom: 1px solid rgba(37, 31, 24, 0.12);
-  }
-
-  .map-label {
-    align-self: center;
-    min-width: 0;
+    background: rgba(255, 250, 241, 0.97);
   }
 
   .map-actions {
@@ -1136,12 +1363,13 @@ h1 {
     flex-wrap: nowrap !important;
     justify-content: flex-end !important;
     min-width: 0;
+    gap: 7px;
     overflow: visible !important;
   }
 
   .map-actions .btn {
     min-width: 0;
-    min-height: 36px;
+    min-height: 38px;
     padding: 0 10px;
     border-radius: 12px;
     font-size: 11.5px;
@@ -1150,16 +1378,27 @@ h1 {
   #map {
     display: block !important;
     width: 100% !important;
+    inline-size: 100% !important;
+    height: 360px;
     height: var(--map-height) !important;
-    min-height: 320px !important;
-    max-height: 430px !important;
+    min-height: 340px !important;
+    max-height: 440px !important;
     margin: 0 !important;
     border: 0 !important;
+    overflow: hidden !important;
+    background: #e7dfd3;
   }
 
-  .leaflet-container {
+  #map.leaflet-container {
     width: 100% !important;
-    height: 100% !important;
+    inline-size: 100% !important;
+    height: var(--map-height) !important;
+  }
+
+  .leaflet-map-pane,
+  .leaflet-tile-pane,
+  .leaflet-tile-container {
+    max-width: none !important;
   }
 
   .leaflet-control-container .leaflet-top.leaflet-left {
@@ -1195,9 +1434,21 @@ h1 {
     width: 100%;
     min-width: 0;
   }
+
+  .card-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .link-btn {
+    min-height: 44px;
+  }
 }
 
 @media (max-width: 430px) {
+  .app-shell {
+    padding-inline: 10px;
+  }
+
   .map-toolbar {
     grid-template-columns: 1fr !important;
   }
@@ -1213,7 +1464,23 @@ h1 {
     min-height: 40px;
   }
 
-  #map {
-    min-height: 330px !important;
+  #map,
+  #map.leaflet-container {
+    min-height: 350px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --map-height: 320px;
+  }
+
+  h1 {
+    max-width: 210px;
+  }
+
+  #map,
+  #map.leaflet-container {
+    min-height: 320px !important;
   }
 }

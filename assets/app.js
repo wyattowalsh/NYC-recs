@@ -69,9 +69,11 @@
       renderFilterChips();
       restoreStateFromUrl();
 
-      if (window.L) {
+      try {
+        await waitForLeaflet();
         initMap();
-      } else {
+      } catch (mapError) {
+        console.warn(mapError);
         showMapFallback("Map unavailable. Use the Maps links on each card.");
       }
 
@@ -92,6 +94,23 @@
     } catch (error) {
       showFatalError(error);
     }
+  }
+
+  function waitForLeaflet(timeoutMs = 7000) {
+    if (window.L) return Promise.resolve();
+
+    return new Promise((resolve, reject) => {
+      const started = Date.now();
+      const timer = window.setInterval(() => {
+        if (window.L) {
+          window.clearInterval(timer);
+          resolve();
+        } else if (Date.now() - started > timeoutMs) {
+          window.clearInterval(timer);
+          reject(new Error("Leaflet failed to load."));
+        }
+      }, 50);
+    });
   }
 
   async function loadRecs() {
@@ -454,6 +473,15 @@
 
     markerLayer = L.layerGroup().addTo(map);
 
+    setupMapResizeObserver();
+
+    map.whenReady(() => {
+      hardInvalidateMap();
+      window.setTimeout(() => {
+        state.focusedId ? focusSelected({ animate: false }) : fitVisiblePins({ animate: false });
+      }, 120);
+    });
+
     map.on("popupopen", (event) => {
       const popupEl = event.popup.getElement();
       const cardLink = popupEl?.querySelector("[data-popup-card]");
@@ -468,6 +496,28 @@
         });
       });
     });
+  }
+
+  function setupMapResizeObserver() {
+    if (!window.ResizeObserver || !els.mapEl) return;
+
+    const observer = new ResizeObserver((entries) => {
+      const entry = entries.find((item) => item.target === els.mapEl) || entries[0];
+      if (!entry?.contentRect?.width || !entry?.contentRect?.height) return;
+
+      window.clearTimeout(state.fitTimer);
+      state.fitTimer = window.setTimeout(() => {
+        hardInvalidateMap();
+        if (state.focusedId) {
+          focusSelected({ animate: false });
+        } else {
+          fitVisiblePins({ animate: false });
+        }
+      }, 90);
+    });
+
+    observer.observe(els.mapEl);
+    if (els.mapPanel) observer.observe(els.mapPanel);
   }
 
   function markerHtml(rec, selected, dimmed) {
@@ -547,9 +597,10 @@
 
   function hardInvalidateMap() {
     if (!map) return;
-    map.invalidateSize({ pan: false });
-    requestAnimationFrame(() => map?.invalidateSize({ pan: false }));
-    window.setTimeout(() => map?.invalidateSize({ pan: false }), 120);
+    map.invalidateSize({ pan: false, debounceMoveend: true });
+    requestAnimationFrame(() => map?.invalidateSize({ pan: false, debounceMoveend: true }));
+    window.setTimeout(() => map?.invalidateSize({ pan: false, debounceMoveend: true }), 80);
+    window.setTimeout(() => map?.invalidateSize({ pan: false, debounceMoveend: true }), 220);
   }
 
   function currentLatLngs() {
