@@ -1082,3 +1082,138 @@ h1 {
     background: rgba(255,253,247,.96);
   }
 }
+
+
+/* Mobile map hardening pass */
+.shown-badge { gap: 4px; }
+.shown-label { display: inline-block; }
+
+@media (max-width: 760px) {
+  :root { --map-height: clamp(320px, 48svh, 430px); }
+
+  html, body, .app-shell { overflow-x: hidden; }
+
+  .control-panel {
+    box-shadow: 0 12px 34px rgba(42, 31, 20, 0.12);
+  }
+
+  .main-grid {
+    display: block;
+  }
+
+  .map-panel {
+    position: relative !important;
+    top: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 18px !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(37, 31, 24, 0.16);
+    border-radius: 24px !important;
+    background: rgba(255, 253, 247, 0.92);
+    box-shadow: 0 16px 38px rgba(42, 31, 20, 0.14);
+    isolation: isolate;
+  }
+
+  .map-toolbar {
+    display: grid !important;
+    grid-template-columns: 1fr auto !important;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    background: rgba(255, 250, 241, 0.96);
+    border-bottom: 1px solid rgba(37, 31, 24, 0.12);
+  }
+
+  .map-label {
+    align-self: center;
+    min-width: 0;
+  }
+
+  .map-actions {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-end !important;
+    min-width: 0;
+    overflow: visible !important;
+  }
+
+  .map-actions .btn {
+    min-width: 0;
+    min-height: 36px;
+    padding: 0 10px;
+    border-radius: 12px;
+    font-size: 11.5px;
+  }
+
+  #map {
+    display: block !important;
+    width: 100% !important;
+    height: var(--map-height) !important;
+    min-height: 320px !important;
+    max-height: 430px !important;
+    margin: 0 !important;
+    border: 0 !important;
+  }
+
+  .leaflet-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .leaflet-control-container .leaflet-top.leaflet-left {
+    top: 8px;
+    left: 8px;
+  }
+
+  .leaflet-control-zoom {
+    border: 0 !important;
+    box-shadow: 0 8px 22px rgba(23, 20, 17, 0.22) !important;
+  }
+
+  .leaflet-control-zoom a {
+    width: 34px !important;
+    height: 34px !important;
+    line-height: 34px !important;
+  }
+
+  .focus-dock {
+    width: 100%;
+    border-top: 1px solid rgba(37, 31, 24, 0.12);
+    background: rgba(255, 250, 241, 0.97);
+  }
+
+  .focus-actions {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+    width: 100%;
+  }
+
+  .list-panel {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .map-toolbar {
+    grid-template-columns: 1fr !important;
+  }
+
+  .map-actions {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .map-actions .btn {
+    width: 100%;
+    min-height: 40px;
+  }
+
+  #map {
+    min-height: 330px !important;
+  }
+}

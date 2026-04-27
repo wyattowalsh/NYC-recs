@@ -82,11 +82,11 @@
       if (state.focusedId && recById.has(state.focusedId)) {
         defer(() => focusRec(state.focusedId, { scrollCard: false, scrollMap: false, updateUrl: false }), 220);
       } else {
-        defer(() => fitVisiblePins({ animate: false }), 120);
+        defer(() => { hardInvalidateMap(); fitVisiblePins({ animate: false }); }, 120);
       }
 
       defer(() => {
-        map?.invalidateSize();
+        hardInvalidateMap();
         state.focusedId ? focusSelected({ animate: false }) : fitVisiblePins({ animate: false });
       }, 650);
     } catch (error) {
@@ -545,6 +545,13 @@
     }
   }
 
+  function hardInvalidateMap() {
+    if (!map) return;
+    map.invalidateSize({ pan: false });
+    requestAnimationFrame(() => map?.invalidateSize({ pan: false }));
+    window.setTimeout(() => map?.invalidateSize({ pan: false }), 120);
+  }
+
   function currentLatLngs() {
     return visibleRecs().map((rec) => [rec.lat, rec.lon]);
   }
@@ -556,7 +563,7 @@
   function fitLatLngs(latLngs, { maxZoom = 14, animate = true } = {}) {
     if (!map || !latLngs.length) return;
 
-    map.invalidateSize();
+    hardInvalidateMap();
 
     if (latLngs.length === 1) {
       const zoom = isMobile() ? Math.min(maxZoom, 16) : Math.min(maxZoom, 15);
@@ -602,7 +609,7 @@
         els.mapPanel.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "start" });
       }
 
-      map?.invalidateSize();
+      hardInvalidateMap();
 
       if (zoomMap) {
         fitLatLngs([[rec.lat, rec.lon]], { maxZoom: 16, animate: true });
@@ -648,6 +655,7 @@
     renderSections(currentRecs);
     renderMarkers(currentRecs);
     renderFocusDock();
+    if (isMobile()) defer(() => hardInvalidateMap(), 35);
     if (updateUrl) updateUrlState();
   }
 
@@ -859,14 +867,14 @@
     window.addEventListener("resize", () => {
       window.clearTimeout(state.fitTimer);
       state.fitTimer = window.setTimeout(() => {
-        map?.invalidateSize();
+        hardInvalidateMap();
         state.focusedId ? focusSelected({ animate: false }) : fitVisiblePins({ animate: false });
       }, 180);
     });
 
     window.addEventListener("orientationchange", () => {
       defer(() => {
-        map?.invalidateSize();
+        hardInvalidateMap();
         state.focusedId ? focusSelected({ animate: false }) : fitVisiblePins({ animate: false });
       }, 420);
     });
