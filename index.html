@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Wyatt’s NYC Recs</title>
+  <meta name="description" content="A concise, map-first NYC guide for visiting friends: food, drinks, music, activities, and low-key local picks." />
+  <meta name="theme-color" content="#f7eee0" />
+  <meta name="color-scheme" content="light" />
+  <meta name="apple-mobile-web-app-title" content="NYC Recs" />
+  <meta property="og:title" content="Wyatt’s NYC Recs" />
+  <meta property="og:description" content="A map-first NYC rec list for visiting friends." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nyc-recs.w4w.dev/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://nyc-recs.w4w.dev/" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+  <link rel="preconnect" href="https://basemaps.cartocdn.com" crossorigin />
+  <link rel="dns-prefetch" href="https://unpkg.com" />
+  <link rel="dns-prefetch" href="https://basemaps.cartocdn.com" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQdH8k62gQpBVDfRT8G0TWt0F6Pj1pA=" crossorigin="" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <noscript>
+    <div class="no-js">Wyatt’s NYC Recs needs JavaScript for the interactive map and filters.</div>
+  </noscript>
+
+  <main class="app-shell">
+    <header class="masthead">
+      <div class="masthead-row">
+        <h1>Wyatt’s NYC Recs</h1>
+        <div class="shown-badge" aria-live="polite"><span id="visibleCount">60</span> shown</div>
+      </div>
+      <div class="city-ribbon" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </header>
+
+    <section class="control-panel" aria-label="Filters and actions">
+      <div class="search-actions">
+        <label class="search-field">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <span class="sr-only">Search picks</span>
+          <input id="searchInput" type="search" placeholder="Search places, areas, vibes, tags…" autocomplete="off" autocapitalize="none" spellcheck="false" />
+        </label>
+
+        <div class="top-actions" aria-label="Page actions">
+          <button class="btn ghost" id="clearFilters" type="button">Clear</button>
+          <button class="btn ghost" id="shareView" type="button">Share</button>
+          <button class="btn ghost" id="copyVisible" type="button">Copy</button>
+          <button class="btn ghost" id="distanceBtn" type="button">Near me</button>
+          <button class="btn ink" id="fitPinsTop" type="button">Fit map</button>
+        </div>
+      </div>
+
+      <div class="filter-grid">
+        <section class="filter-box" aria-label="Area filters">
+          <p class="filter-title">Area</p>
+          <div class="chips" id="areaFilters"></div>
+        </section>
+        <section class="filter-box" aria-label="Type filters">
+          <p class="filter-title">Type</p>
+          <div class="chips" id="typeFilters"></div>
+        </section>
+        <section class="filter-box" aria-label="Vibe filters">
+          <p class="filter-title">Vibe</p>
+          <div class="chips" id="traitFilters"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="main-grid">
+      <aside class="map-panel" id="mapPanel" aria-label="Map">
+        <div class="map-toolbar">
+          <span class="map-label">Map</span>
+          <div class="map-actions">
+            <button class="btn ghost small" id="clearFocus" type="button">Clear focus</button>
+            <button class="btn ink small" id="fitPinsMap" type="button">Fit map</button>
+          </div>
+        </div>
+        <div id="map" role="application" aria-label="Map of recommendation locations"></div>
+        <div class="focus-dock" id="focusDock" aria-live="polite">
+          <div class="focus-text">
+            <div class="focus-name" id="focusName"></div>
+            <div class="focus-meta" id="focusMeta"></div>
+          </div>
+          <div class="focus-actions" id="focusActions"></div>
+        </div>
+      </aside>
+
+      <section class="list-panel" id="listPanel" aria-label="Recommendation list">
+        <div class="list-head">Places</div>
+        <div class="empty" id="emptyState">No matches.</div>
+        <div id="sections"></div>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

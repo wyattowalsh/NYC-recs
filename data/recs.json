@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "little-flower-cafe",
+    "name": "Little Flower Cafe",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "Astoria cafe",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "cafe",
+      "local",
+      "low-key",
+      "easy",
+      "pastry"
+    ],
+    "blurb": "Afghan-rooted Astoria cafe with better-than-chain coffee, pastries, and neighborhood energy.",
+    "fit": "a low-friction Queens reset with real personality",
+    "gmaps": "https://maps.google.com/maps?q=Little+Flower+Cafe&ftid=0x89c25f0cac92f1b3:0x9c73a6306cc776ad",
+    "siteLinks": [
+      {
+        "label": "IG",
+        "url": "https://www.instagram.com/littleflowercafe/"
+      }
+    ],
+    "lat": 40.7579891,
+    "lon": -73.9321015,
+    "places": "Little Flower Cafe"
+  },
+  {
+    "id": "m-tea",
+    "name": "M Tea",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "dessert / bubble tea",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "dessert",
+      "local",
+      "casual",
+      "easy"
+    ],
+    "blurb": "Playful LIC bubble-tea and dessert stop with a little more design than the average grab-and-go.",
+    "fit": "a quick sweet add-on, not the whole plan",
+    "gmaps": "https://maps.google.com?q=M%20Tea,%2023-01%2041st%20Ave%20Store%201D,%20Queens,%20NY%2011101&ftid=0x89c25973a3a942df:0xda5c3923954abc91",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.mteanyc.com/"
+      }
+    ],
+    "lat": 40.7530724,
+    "lon": -73.940253,
+    "places": "M Tea"
+  },
+  {
+    "id": "matsunori-handroll-bar",
+    "name": "Matsunori Handroll Bar",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC handroll bar",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "sushi",
+      "local",
+      "casual"
+    ],
+    "blurb": "Compact LIC handroll bar for crisp nori, fresh fish, and an easy sushi fix without trekking downtown.",
+    "fit": "a focused Queens meal that stays simple",
+    "gmaps": "https://www.google.com/maps/place/Matsunori+Handroll+Bar/@40.7465358,-73.9427434,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2590445b08429:0x14e0061eed360ead",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://matsunori.com/lic"
+      }
+    ],
+    "lat": 40.7465358,
+    "lon": -73.9427434,
+    "places": "Matsunori Handroll Bar"
+  },
+  {
+    "id": "pig-beach-bbq-queens",
+    "name": "Pig Beach BBQ Queens",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "BBQ / big-group hang",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "group",
+      "casual",
+      "local"
+    ],
+    "blurb": "Big-format Queens BBQ with space, beer, and very low social friction.",
+    "fit": "a group that wants easy food and no delicate logistics",
+    "gmaps": "https://maps.google.com?q=Pig%20Beach%20BBQ%20Queens,%2035-37%2036th%20St%20Ground%20Floor,%20Astoria,%20NY%2011106&ftid=0x89c25f4b7cca3eb1:0x23079a253843b75",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.pigbeachnyc.com/"
+      }
+    ],
+    "lat": 40.755083,
+    "lon": -73.9251806,
+    "places": "Pig Beach BBQ Queens"
+  },
+  {
+    "id": "riviera-maya",
+    "name": "Riviera Maya",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "Astoria Mexican",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "local",
+      "casual",
+      "easy"
+    ],
+    "blurb": "Casual Astoria Mexican option when the route is already Queens and nobody wants formality.",
+    "fit": "a simple local fallback",
+    "gmaps": "https://maps.google.com/maps?q=Riviera+Maya&ftid=0x89c25f9689a3c7d9:0xb8e5a7aad3d3aa20",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://rivieramayarestaurant.com/"
+      }
+    ],
+    "lat": 40.7628021,
+    "lon": -73.9179633,
+    "places": "Riviera Maya"
+  },
+  {
+    "id": "softbite-souffle-pancakes",
+    "name": "Softbite | Souffle Pancakes",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "soufflé pancakes",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "dessert",
+      "local",
+      "casual",
+      "easy"
+    ],
+    "blurb": "Fluffy Japanese-style soufflé pancakes in LIC; dessert-first and intentionally cute.",
+    "fit": "a sweet side quest if the route is already in Queens",
+    "gmaps": "https://maps.google.com/maps?q=Softbite+%7C+Souffl%C3%A9+Pancakes&ftid=0x89c2593e29a1d8a3:0x7a373feccb090696",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.softbite.us/"
+      }
+    ],
+    "lat": 40.7491627,
+    "lon": -73.9421105,
+    "places": "Softbite | Soufflé Pancakes"
+  },
+  {
+    "id": "dutch-kills",
+    "name": "Dutch Kills",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC cocktail bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "local",
+      "low-key",
+      "easy"
+    ],
+    "blurb": "Dark LIC cocktail standby: classic, grown-up, and stronger than the average neighborhood bar.",
+    "fit": "one solid Queens drink without turning it into a production",
+    "gmaps": "https://maps.google.com/maps?q=Dutch+Kills&ftid=0x89c2592a40265cc1:0x107bcc419a23d825",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.dutchkillsbar.com/"
+      }
+    ],
+    "lat": 40.7476605,
+    "lon": -73.940184,
+    "places": "Dutch Kills"
+  },
+  {
+    "id": "finback-lic-fifth-hammer-brewing",
+    "name": "Finback LIC + Fifth Hammer Brewing",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC brewery crawl",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "beer",
+      "local",
+      "group",
+      "easy"
+    ],
+    "blurb": "Two LIC taprooms close enough to treat as one flexible beer move.",
+    "fit": "low-pressure beers with room to hang",
+    "gmaps": "https://maps.google.com/maps?q=Finback+LIC&ftid=0x89c259aeca545099:0xa319fab985141545",
+    "siteLinks": [
+      {
+        "label": "Finback",
+        "url": "https://finbackbrewery.com/finback-home"
+      },
+      {
+        "label": "Fifth Hammer",
+        "url": "https://www.fifthhammerbrewing.com/"
+      }
+    ],
+    "lat": 40.75087765000001,
+    "lon": -73.9431351,
+    "places": "Finback LIC | Fifth Hammer Brewing Company"
+  },
+  {
+    "id": "lost-in-paradise-rooftop",
+    "name": "Lost in Paradise Rooftop",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC rooftop",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "rooftop",
+      "views",
+      "local",
+      "group"
+    ],
+    "blurb": "Queens rooftop with skyline payoff and less friction than most Manhattan rooftops.",
+    "fit": "views matter but the plan should stay local",
+    "gmaps": "https://maps.google.com?q=Lost%20in%20Paradise%20Rooftop,%2011-01%2043rd%20Ave,%20Long%20Island%20City,%20NY%2011101&ftid=0x89c259927ec6088d:0xe70dcfe6421fca44",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.lostinparadiserooftop.com/"
+      }
+    ],
+    "lat": 40.7547016,
+    "lon": -73.9620309,
+    "places": "Lost in Paradise Rooftop"
+  },
+  {
+    "id": "vista-sky-lounge",
+    "name": "Vista Sky Lounge",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC skyline drinks",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "rooftop",
+      "views",
+      "local",
+      "easy"
+    ],
+    "blurb": "Nearby LIC rooftop / skyline option that keeps the Manhattan-view box easy to check.",
+    "fit": "a view stop without making it the main event",
+    "gmaps": "https://maps.google.com?q=Vista%20Sky%20Lounge,%2027-05%2039th%20Ave,%20Long%20Island%20City,%20NY%2011101&ftid=0x89c25f2cb483e901:0x10736dc6e7eff1ad",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://vistalic.com/"
+      }
+    ],
+    "lat": 40.7564263,
+    "lon": -73.9298171,
+    "places": "Vista Sky Lounge"
+  },
+  {
+    "id": "brooklyn-boulders-queensbridge",
+    "name": "Brooklyn Boulders Queensbridge",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "climbing gym",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "active",
+      "local",
+      "rainy",
+      "group"
+    ],
+    "blurb": "Indoor climbing in LIC: active, social, and actually useful when weather is bad.",
+    "fit": "a group wants movement instead of another sit-down spot",
+    "gmaps": "https://maps.google.com/maps?q=Brooklyn+Boulders+Queensbridge&ftid=0x89c258d4154b761f:0xdfdaee821dca7795",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://qb.brooklynboulders.com/"
+      }
+    ],
+    "lat": 40.7526405,
+    "lon": -73.9400914,
+    "places": "Brooklyn Boulders Queensbridge"
+  },
+  {
+    "id": "partners-coffee-gantry-plaza-state-park",
+    "name": "Partners Coffee + Gantry Plaza State Park",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "coffee + skyline walk",
+    "type": "outdoors",
+    "typeLabel": "Outside",
+    "tags": [
+      "outside",
+      "views",
+      "local",
+      "easy"
+    ],
+    "blurb": "Good LIC coffee plus the waterfront skyline walk — simple, local, and hard to beat.",
+    "fit": "a low-commitment NYC view with caffeine attached",
+    "gmaps": "https://maps.google.com?q=Partners%20Coffee,%2026-25%20Jackson%20Ave,%20Queens,%20NY%2011101&ftid=0x89c2592977004343:0x7b53c0491a055f4e",
+    "siteLinks": [
+      {
+        "label": "Partners",
+        "url": "https://www.partnerscoffee.com/pages/retail-locations"
+      },
+      {
+        "label": "Gantry",
+        "url": "https://parks.ny.gov/parks/gantryplaza/details.aspx"
+      }
+    ],
+    "lat": 40.74746915,
+    "lon": -73.9476454,
+    "places": "Partners Coffee | Gantry Plaza State Park"
+  },
+  {
+    "id": "socrates-sculpture-park",
+    "name": "Socrates Sculpture Park",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "outdoor art park",
+    "type": "outdoors",
+    "typeLabel": "Outside",
+    "tags": [
+      "outside",
+      "art",
+      "free",
+      "local"
+    ],
+    "blurb": "Free outdoor sculpture park on the Queens waterfront, more local-feeling than tourist-core.",
+    "fit": "a daylight walk with art and skyline texture",
+    "gmaps": "https://maps.google.com/maps?q=Socrates+Sculpture+Park&ftid=0x89c258b558e6c8bd:0xc0d1b4d831853d17",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://socratessculpturepark.org/"
+      }
+    ],
+    "lat": 40.76842,
+    "lon": -73.93662,
+    "places": "Socrates Sculpture Park"
+  },
+  {
+    "id": "casa-mono",
+    "name": "Casa Mono",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "Spanish / tapas",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "polished",
+      "wine",
+      "worth-detour"
+    ],
+    "blurb": "Tiny Spanish/tapas room near Union Square when the meal itself should carry the plan.",
+    "fit": "a more serious food choice without going ultra-formal",
+    "gmaps": "https://maps.google.com/maps?q=Casa+Mono&ftid=0x89c2599f606cdd51:0x8ed7490789a74a46",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.casamononyc.com/"
+      }
+    ],
+    "lat": 40.7358936,
+    "lon": -73.9871361,
+    "places": "Casa Mono"
+  },
+  {
+    "id": "chalong-nyc",
+    "name": "Chalong NYC",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Hell’s Kitchen Thai",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "thai",
+      "worth-detour",
+      "central"
+    ],
+    "blurb": "Hell’s Kitchen Thai that feels like an upgrade from the usual Midtown default.",
+    "fit": "central logistics plus food that still has a point of view",
+    "gmaps": "https://maps.google.com/maps?q=Chalong+NYC&ftid=0x89c2591e368c0087:0x99124cb91291893a",
+    "siteLinks": [
+      {
+        "label": "MICHELIN",
+        "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chalong"
+      },
+      {
+        "label": "IG",
+        "url": "https://www.instagram.com/chalongnyc/"
+      }
+    ],
+    "lat": 40.759607,
+    "lon": -73.9708523,
+    "places": "Chalong NYC"
+  },
+  {
+    "id": "empellon",
+    "name": "Empellon",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "polished Mexican",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "polished",
+      "central",
+      "date-y"
+    ],
+    "blurb": "Polished Midtown Mexican with enough structure for a proper dinner but not stiff energy.",
+    "fit": "a cleaner, reservation-friendly central meal",
+    "gmaps": "https://maps.google.com/maps?q=Empellon&ftid=0x89c258fb9bf4bef1:0x472ca37882106ca8",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.empellon.com/restaurants/empellon/"
+      }
+    ],
+    "lat": 40.7597022,
+    "lon": -73.9746995,
+    "places": "Empellon"
+  },
+  {
+    "id": "katsu-hama",
+    "name": "Katsu-Hama",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "tonkatsu",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "japanese",
+      "central",
+      "easy"
+    ],
+    "blurb": "Straightforward tonkatsu classic in Midtown: crispy, reliable, and unpretentious.",
+    "fit": "a satisfying meal between other Manhattan stops",
+    "gmaps": "https://maps.google.com/maps?q=Katsu-Hama&ftid=0x89c258fe7a2e5949:0x9707493ff4f17cc6",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://katsuhamanyc.com/"
+      }
+    ],
+    "lat": 40.7564028,
+    "lon": -73.9776361,
+    "places": "Katsu-Hama"
+  },
+  {
+    "id": "mitr-thai-restaurant",
+    "name": "Mitr Thai Restaurant",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Midtown Thai",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "thai",
+      "central",
+      "easy"
+    ],
+    "blurb": "Colorful Midtown Thai with stronger atmosphere than the average Theater District fallback.",
+    "fit": "central Thai when convenience still matters",
+    "gmaps": "https://maps.google.com/maps?q=Mitr+Thai+Restaurant&ftid=0x89c259c2d782a2dd:0x42f5e1bd339df757",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.mitrthainyc.com/"
+      }
+    ],
+    "lat": 40.7568769,
+    "lon": -73.9804147,
+    "places": "Mitr Thai Restaurant"
+  },
+  {
+    "id": "m-l-project",
+    "name": "MáLà Project",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Sichuan dry-pot",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "spicy",
+      "group",
+      "central"
+    ],
+    "blurb": "Sichuan dry-pot crowd-pleaser: customizable, spicy, and group-friendly.",
+    "fit": "a table wants shared food with some heat",
+    "gmaps": "https://maps.google.com?q=M%C3%A1L%C3%A0%20Project,%20245%20E%2053rd%20St,%20New%20York,%20NY%2010022&ftid=0x89c259c833408273:0xdf0cd31a37a42533",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.malaproject.com/"
+      }
+    ],
+    "lat": 40.7556497,
+    "lon": -73.94945,
+    "places": "MáLà Project"
+  },
+  {
+    "id": "p-s-kitchen",
+    "name": "P.S. Kitchen",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "plant-forward",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "vegetarian",
+      "central",
+      "easy"
+    ],
+    "blurb": "Plant-based Times Square/Hell’s Kitchen option that is actually useful for mixed dietary groups.",
+    "fit": "someone needs vegan/kosher-friendly central logistics",
+    "gmaps": "https://www.google.com/maps/dir//P.S.+Kitchen,+246+W+48th+St,+New+York,+NY+10036/@40.7561341,-73.9743927,14z/data=!3m1!4b1!4m8!4m7!1m0!1m2!1m1!1s0x89c2585682c56885:0x5a0e4a1c6e679eef!2m1!7e2!3e3",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.ps-kitchen.com/"
+      }
+    ],
+    "lat": 40.7561341,
+    "lon": -73.9743927,
+    "places": "P.S. Kitchen"
+  },
+  {
+    "id": "ulivo",
+    "name": "Ulivo",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "Flatiron Italian",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "italian",
+      "central",
+      "easy"
+    ],
+    "blurb": "Flatiron Italian that works when the group wants pasta, wine, and no weirdness.",
+    "fit": "a comfortable central dinner fallback",
+    "gmaps": "https://www.google.com/maps/dir//Ulivo,+4+W+28th+St,+New+York,+NY+10001/@40.7450856,-73.9885416,17z/data=!3m1!4b1!4m6!4m5!1m0!1m2!1m1!1s0x89c259a61300129f:0xf7226e569257b17a!3e2",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.ulivonyc.com/"
+      }
+    ],
+    "lat": 40.7450856,
+    "lon": -73.9885416,
+    "places": "Ulivo"
+  },
+  {
+    "id": "yakitori-totto",
+    "name": "Yakitori Totto",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "yakitori",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "japanese",
+      "intimate",
+      "central"
+    ],
+    "blurb": "Tiny Midtown yakitori institution with smoky skewers and a tucked-away feel.",
+    "fit": "Japanese food should feel more like a find than a default",
+    "gmaps": "https://maps.google.com?q=Yakitori%20Totto,%20251%20W%2055th%20St%202nd%20Floor,%20New%20York,%20NY%2010019&ftid=0x89c258580128484f:0x4117c8456cb5894b",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.yakitoritotto.com/"
+      }
+    ],
+    "lat": 40.7654434,
+    "lon": -73.9833894,
+    "places": "Yakitori Totto"
+  },
+  {
+    "id": "experimental-cocktail-club",
+    "name": "Experimental Cocktail Club",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "basement cocktail lounge",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "central"
+    ],
+    "blurb": "Subterranean Flatiron cocktail room under La Compagnie; polished but still hidden-feeling.",
+    "fit": "a cocktail-first stop with a little discovery factor",
+    "gmaps": "https://maps.google.com/maps?q=Experimental+Cocktail+Club&ftid=0x89c259006ed0a171:0x39b084041c7b9ee0",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.experimentalcocktailclub.com/new-york"
+      }
+    ],
+    "lat": 40.7439646,
+    "lon": -73.9925748,
+    "places": "Experimental Cocktail Club"
+  },
+  {
+    "id": "glass-ceiling-nomad",
+    "name": "Glass Ceiling NoMad",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "NoMad rooftop",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "rooftop",
+      "cocktails",
+      "views",
+      "group"
+    ],
+    "blurb": "NoMad rooftop with Manhattan energy, skyline atmosphere, and enough scene without going full club.",
+    "fit": "a rooftop is the move but the vibe should stay controlled",
+    "gmaps": "https://maps.google.com?q=Glass%20Ceiling%20Nomad,%201204%20Broadway,%20New%20York,%20NY%2010001&ftid=0x89c259f4128ba469:0xa0d66394e95418f2",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://glassceilingrooftop.com/"
+      }
+    ],
+    "lat": 40.7457469,
+    "lon": -73.9881943,
+    "places": "Glass Ceiling NoMad / Rooftop"
+  },
+  {
+    "id": "madame-george-valerie",
+    "name": "Madame George + VALERIE",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "cocktails + polished food",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "food",
+      "date-y",
+      "central"
+    ],
+    "blurb": "Midtown combo: Madame George for subterranean cocktails; Valerie for polished food nearby.",
+    "fit": "a central night needs one reliable anchor and a good drink",
+    "gmaps": "https://maps.google.com?q=Madame%20George,%2045%20W%2045th%20St,%20New%20York,%20NY%2010036&ftid=0x89c25983043c781d:0x72fb1f8fbd8344a5",
+    "siteLinks": [
+      {
+        "label": "Madame George",
+        "url": "https://www.madamegeorgenyc.com/"
+      },
+      {
+        "label": "Valerie",
+        "url": "https://www.valerienewyorkcity.com/"
+      }
+    ],
+    "lat": 40.75634045,
+    "lon": -73.98113505,
+    "places": "Madame George | VALERIE"
+  },
+  {
+    "id": "osamil-upstairs",
+    "name": "Osamil Upstairs",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Korean cocktail lounge",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "central"
+    ],
+    "blurb": "Koreatown upstairs cocktail lounge above Osamil; tucked away but still easy to route.",
+    "fit": "K-town dinner needs a better next stop",
+    "gmaps": "https://maps.google.com/maps?q=Osamil+Upstairs&ftid=0x89c259215a5a30a9:0x604fb7091a55136a",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.osamilupstairs.com/"
+      }
+    ],
+    "lat": 40.7499169,
+    "lon": -73.9884359,
+    "places": "Osamil Upstairs"
+  },
+  {
+    "id": "patent-pending",
+    "name": "Patent Pending",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "NoMad speakeasy",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "central"
+    ],
+    "blurb": "NoMad speakeasy in the Radio Wave Building with a Tesla-era backstory and intimate room.",
+    "fit": "someone wants the hidden-door cocktail thing done well",
+    "gmaps": "https://maps.google.com?q=Patent%20Pending,%2049%20W%2027th%20St,%20New%20York,%20NY%2010001&ftid=0x89c259a5ec84b6a3:0xb014f4ed14104d39",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.patentpendingnyc.com/"
+      }
+    ],
+    "lat": 40.7448029,
+    "lon": -73.9905026,
+    "places": "Patent Pending"
+  },
+  {
+    "id": "pebble-bar",
+    "name": "Pebble Bar",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Rockefeller townhouse bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "classic",
+      "central",
+      "date-y"
+    ],
+    "blurb": "Rockefeller Center townhouse bar with old-New-York polish and a useful Midtown location.",
+    "fit": "a central drink should feel a little elevated",
+    "gmaps": "https://maps.google.com?q=Pebble%20Bar,%2067%20W%2049th%20St,%20New%20York,%20NY%2010112&ftid=0x89c259e1511249af:0xd5d725708b4dc1f0",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.pebblebarnyc.com/"
+      }
+    ],
+    "lat": 40.7552982,
+    "lon": -73.9819504,
+    "places": "Pebble Bar"
+  },
+  {
+    "id": "thyme-bar",
+    "name": "Thyme Bar",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "underground cocktail bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "polished"
+    ],
+    "blurb": "Flatiron cellar cocktail bar with theatrical drinks and a quieter “found it” feeling.",
+    "fit": "cocktails should be the destination",
+    "gmaps": "https://www.google.com/maps/dir/Mission+NYC,+West+28th+Street,+New+York,+NY/Thyme+Bar,+20+W+23rd+St,+Cellar,+New+York,+NY+10010/@40.7447584,-73.9915045,15z/data=!3m1!4b1!4m8!4m7!1m2!1m1!1s0x89c259a98c35e1b3:0xe50e41cd5f7813e6!1m2!1m1!1s0x89c259dfa0efe219:0xb45b3c3d80b532ca!3e2",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.thymebarnyc.com/"
+      }
+    ],
+    "lat": 40.7447584,
+    "lon": -73.9915045,
+    "places": "Thyme Bar"
+  },
+  {
+    "id": "tomi-jazz",
+    "name": "Tomi Jazz",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "tiny jazz + Japanese food",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "jazz",
+      "intimate",
+      "food"
+    ],
+    "blurb": "Tiny Japanese jazz room in Midtown East: food, drinks, and live sets in close quarters.",
+    "fit": "music should feel intimate, not arena-scale",
+    "gmaps": "https://maps.google.com?q=Tomi%20Jazz,%20239%20E%2053rd%20St,%20New%20York,%20NY%2010022&ftid=0x89c258e39ba7c455:0x54f3dcc370af689c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.tomijazz.com/"
+      }
+    ],
+    "lat": 40.746208,
+    "lon": -73.9796576,
+    "places": "Tomi Jazz"
+  },
+  {
+    "id": "barcade-chelsea",
+    "name": "Barcade Chelsea",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "arcade bar",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "activity",
+      "beer",
+      "group",
+      "rainy"
+    ],
+    "blurb": "Classic arcade bar format: craft beer, old games, and zero pressure to over-plan.",
+    "fit": "a group needs something to do while drinking",
+    "gmaps": "https://maps.google.com/maps?q=Barcade&ftid=0x89c259a4d5b9e835:0xecbcc1604e8c180a",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://barcade.com/location/new-york-chelsea/"
+      }
+    ],
+    "lat": 40.7442657,
+    "lon": -73.9945268,
+    "places": "Barcade Chelsea"
+  },
+  {
+    "id": "swingers-crazy-golf-nomad",
+    "name": "Swingers Crazy Golf NoMad",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "mini-golf + drinks",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "activity",
+      "group",
+      "rainy",
+      "central"
+    ],
+    "blurb": "Indoor mini-golf under NoMad with cocktails and enough structure to save a loose group plan.",
+    "fit": "people want an activity without making it wholesome",
+    "gmaps": "https://maps.google.com/maps?q=Swingers+Crazy+Golf+-+NoMad&ftid=0x89c2591e52564965:0x911c267e3b00d896",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.swingers.club/us/locations/nyc"
+      }
+    ],
+    "lat": 40.7466716,
+    "lon": -73.9892588,
+    "places": "Swingers Crazy Golf - NoMad"
+  },
+  {
+    "id": "8282",
+    "name": "8282",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "modern Korean",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "korean",
+      "downtown",
+      "date-y"
+    ],
+    "blurb": "LES modern Korean: playful, shareable, and better for a small dinner than a giant group.",
+    "fit": "downtown dinner should be fun but still food-led",
+    "gmaps": "https://maps.google.com?q=8282,%2084%20Stanton%20St,%20New%20York,%20NY%2010002&ftid=0x89c2591b7208a535:0x56cf8479930f8f1c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.eightwoeightwo.com/"
+      }
+    ],
+    "lat": 40.73611,
+    "lon": -73.9568478,
+    "places": "8282"
+  },
+  {
+    "id": "cath-drale-restaurant",
+    "name": "Cathédrale Restaurant",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "dramatic East Village room",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "scene",
+      "group",
+      "downtown"
+    ],
+    "blurb": "Dramatic East Village dining room — big ceiling, scene energy, and French-Mediterranean food.",
+    "fit": "the room matters as much as the meal",
+    "gmaps": "https://maps.google.com?q=Cath%C3%A9drale%20Restaurant,%20112%20E%2011th%20St,%20New%20York,%20NY%2010003&ftid=0x89c2597287a09225:0x86ecccf38f4be271",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://taogroup.com/venues/cathedrale-new-york/"
+      }
+    ],
+    "lat": 40.7315339,
+    "lon": -73.9891975,
+    "places": "Cathédrale Restaurant"
+  },
+  {
+    "id": "noreetuh",
+    "name": "noreetuh",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Hawaiian + wine",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "wine",
+      "downtown",
+      "hidden"
+    ],
+    "blurb": "Modern Hawaiian East Village spot with a deep wine list and a quieter, sharper feel.",
+    "fit": "a dinner pick should be distinctive without shouting",
+    "gmaps": "https://maps.google.com?q=noreetuh,%20128%201st%20Ave.,%20New%20York,%20NY%2010009&ftid=0x89c2599d1758313f:0x412583d5e718046c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.noreetuh.com/"
+      }
+    ],
+    "lat": 40.7273155,
+    "lon": -73.9854486,
+    "places": "noreetuh"
+  },
+  {
+    "id": "rosemary-s",
+    "name": "Rosemary's",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Village Italian",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "italian",
+      "downtown",
+      "easy"
+    ],
+    "blurb": "West Village Italian standby for pasta, wine, and a neighborhood that does half the work.",
+    "fit": "the plan benefits from walking around the Village",
+    "gmaps": "https://maps.google.com/maps?q=Rosemary%27s&ftid=0x89c259968f606e09:0xbe72649c51b8f2b5",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.rosemarysnyc.com/"
+      }
+    ],
+    "lat": 40.7470213,
+    "lon": -73.988039,
+    "places": "Rosemary's"
+  },
+  {
+    "id": "soothr",
+    "name": "Soothr",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Thai noodles",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "thai",
+      "downtown",
+      "worth-detour"
+    ],
+    "blurb": "Thai noodle favorite with enough buzz to feel special but still easy to understand.",
+    "fit": "downtown Thai is the right call",
+    "gmaps": "https://maps.google.com/maps?q=Soothr&ftid=0x89c25923d7bca4d1:0x5bbeae84d9924f22",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://soothrnyc.com/"
+      }
+    ],
+    "lat": 40.7460137,
+    "lon": -73.9593277,
+    "places": "Soothr"
+  },
+  {
+    "id": "sveta",
+    "name": "Sveta",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "colorful West Village food + drinks",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "cocktails",
+      "date-y",
+      "downtown"
+    ],
+    "blurb": "West Village spot with colorful, slightly over-the-top Eastern European fusion energy.",
+    "fit": "the group wants food with a visual/vibe payoff",
+    "gmaps": "https://maps.google.com?q=Sveta,%2064%20Carmine%20St,%20New%20York,%20NY%2010014&ftid=0x89c25992f2d0df67:0x6c76de729ff40736",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://sveta-nyc.com/"
+      }
+    ],
+    "lat": 40.7267753,
+    "lon": -74.0027494,
+    "places": "Sveta"
+  },
+  {
+    "id": "yellow-rose",
+    "name": "Yellow Rose",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Tex-Mex / tacos",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "casual",
+      "downtown",
+      "low-key"
+    ],
+    "blurb": "East Village Texas-style tacos, margaritas, and casual downtown energy.",
+    "fit": "a low-key dinner should still feel specific",
+    "gmaps": "https://maps.google.com/maps?q=Yellow+Rose&ftid=0x89c25977f637a4f3:0xe20fd16e55943325",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.yellowrosenyc.com/"
+      }
+    ],
+    "lat": 40.7462783,
+    "lon": -73.9607794,
+    "places": "Yellow Rose"
+  },
+  {
+    "id": "smalls-jazz-club",
+    "name": "Smalls Jazz Club",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "small jazz room",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "jazz",
+      "intimate",
+      "classic"
+    ],
+    "blurb": "Basement Village jazz room: intimate, classic, and usually more memorable than another bar.",
+    "fit": "live music should be close-up",
+    "gmaps": "https://maps.google.com/maps?q=Smalls+Jazz+Club&ftid=0x89c25994686b9ebb:0xa994b5b6ffd1279",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.smallslive.com/"
+      }
+    ],
+    "lat": 40.7343873,
+    "lon": -74.002765,
+    "places": "Smalls Jazz Club"
+  },
+  {
+    "id": "village-vanguard",
+    "name": "Village Vanguard",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "classic jazz basement",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "jazz",
+      "intimate",
+      "classic"
+    ],
+    "blurb": "The classic Village jazz basement — serious, historic, and still a great small-room music move.",
+    "fit": "jazz is the anchor, not background noise",
+    "gmaps": "https://maps.google.com?q=Village%20Vanguard,%20178%207th%20Ave%20S,%20New%20York,%20NY%2010014&ftid=0x89c25995cf058dd5:0x21dab46c9da0af89",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://villagevanguard.com/"
+      }
+    ],
+    "lat": 40.7360334,
+    "lon": -74.0016548,
+    "places": "Village Vanguard"
+  },
+  {
+    "id": "south-street-seaport-mcnally-jackson-museum",
+    "name": "Seaport: McNally Jackson + South Street Seaport Museum",
+    "area": "Downtown Manhattan",
+    "where": "Seaport / FiDi",
+    "vibe": "bookshop + maritime museum",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "books",
+      "museum",
+      "downtown",
+      "low-key",
+      "rainy"
+    ],
+    "blurb": "Lower Manhattan detour with cobblestones, a serious bookstore, and the old-port museum layer.",
+    "fit": "a slower downtown add-on with books, boats, and waterfront texture",
+    "gmaps": "https://maps.google.com?q=McNally%20Jackson%20Books%20Seaport,%204%20Fulton%20St,%20New%20York,%20NY%2010038&ftid=0x89c25b4700d54c73:0x29696472fdc2d30e",
+    "siteLinks": [
+      {
+        "label": "McNally",
+        "url": "https://www.mcnallyjackson.com/"
+      },
+      {
+        "label": "Museum",
+        "url": "https://southstreetseaportmuseum.org/"
+      }
+    ],
+    "lat": 40.71619103333333,
+    "lon": -73.9924146,
+    "places": "McNally Jackson Seaport; South Street Seaport Museum"
+  },
+  {
+    "id": "bersi-ethiopian-restaurant",
+    "name": "Bersi Ethiopian Restaurant",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Ethiopian",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "brooklyn",
+      "hidden",
+      "casual"
+    ],
+    "blurb": "Greenpoint Ethiopian with a more distinctive group-table feel than another generic dinner.",
+    "fit": "people are open to sharing and eating with their hands",
+    "gmaps": "https://maps.google.com/maps?q=Bersi+Ethiopian+Restaurant&ftid=0x89c259ed5b773f57:0x100dedb3b1af218b",
+    "siteLinks": [
+      {
+        "label": "IG",
+        "url": "https://www.instagram.com/bersi_ethiopian_restaurant/"
+      }
+    ],
+    "lat": 40.7431584,
+    "lon": -73.9443098,
+    "places": "Bersi Ethiopian Restaurant"
+  },
+  {
+    "id": "rule-of-thirds",
+    "name": "Rule of Thirds",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Greenpoint Japanese",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "japanese",
+      "brooklyn",
+      "polished"
+    ],
+    "blurb": "Greenpoint Japanese with a polished industrial room and easy Brooklyn dinner energy.",
+    "fit": "Brooklyn dinner should feel designed but not precious",
+    "gmaps": "https://www.google.com/maps/dir//McDonald%27s,+8th+Avenue,+New+York,+NY/Rule+of+Thirds,+171+Banker+St,+Brooklyn,+NY+11222/@40.741154,-73.96406,13z/data=!3m1!4b1!4m9!4m8!1m0!1m2!1m1!1s0x89c2593afa8df42d:0xb102d3f50a309336!1m2!1m1!1s0x89c259e462570469:0x368b01c9e40d301e!3e2",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.thirdsbk.com/"
+      }
+    ],
+    "lat": 40.741154,
+    "lon": -73.96406,
+    "places": "Rule of Thirds"
+  },
+  {
+    "id": "cpt-dan-s-good-time-tavern",
+    "name": "Cpt. Dan’s Good Time Tavern",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Bed-Stuy dive / party bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "drinks",
+      "dive",
+      "brooklyn",
+      "late"
+    ],
+    "blurb": "Bed-Stuy neighborhood bar with personality, food, and dive-adjacent looseness.",
+    "fit": "the plan is already in Brooklyn and wants a casual landing spot",
+    "gmaps": "https://www.google.com/maps/place/Cpt.+Dan%27s+Good+Time+Tavern/@40.688611,-73.951059,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25b93a97efacd:0x92dbc6c7eeb7d83c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://captdansgoodtimetavern.com/"
+      }
+    ],
+    "lat": 40.688611,
+    "lon": -73.951059,
+    "places": "Cpt. Dan’s Good Time Tavern"
+  },
+  {
+    "id": "eavesdrop",
+    "name": "Eavesdrop",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Greenpoint listening bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "music",
+      "hidden",
+      "brooklyn"
+    ],
+    "blurb": "Greenpoint listening bar built around sound, cocktails, natural wine, and a calmer nightlife lane.",
+    "fit": "a night out should feel intentional, not chaotic",
+    "gmaps": "https://maps.google.com?q=Eavesdrop,%20674%20Manhattan%20Ave,%20Brooklyn,%20NY%2011222&ftid=0x89c259fa9d09d51d:0x4589f1db20dcacf7",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.eavesdrop.nyc/"
+      }
+    ],
+    "lat": 40.7243627,
+    "lon": -73.9510186,
+    "places": "Eavesdrop"
+  },
+  {
+    "id": "fresh-kills-bar",
+    "name": "Fresh Kills Bar",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Williamsburg cocktail bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "brooklyn",
+      "low-key",
+      "date-y"
+    ],
+    "blurb": "Williamsburg cocktail bar with no-fuss, serious drinks and neighborhood-bar restraint.",
+    "fit": "cocktails should be excellent but not flashy",
+    "gmaps": "https://maps.google.com/maps?q=Fresh+Kills+Bar&ftid=0x89c2596059a773ef:0xdb075cac1a1aecaa",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://freshkillsbar.com/"
+      }
+    ],
+    "lat": 40.7348455,
+    "lon": -73.9431933,
+    "places": "Fresh Kills Bar"
+  },
+  {
+    "id": "brooklyn-paramount",
+    "name": "Brooklyn Paramount",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "concert venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "concert",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Restored Downtown Brooklyn theater with a grander room than the average concert stop.",
+    "fit": "the artist matters and the venue should feel like part of it",
+    "gmaps": "https://www.google.com/maps/place/Brooklyn+Paramount/@40.6900766,-73.9810749,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25b03462fbacf:0x1a59a547d47eeb2a",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.brooklynparamount.com/"
+      }
+    ],
+    "lat": 40.6900766,
+    "lon": -73.9810749,
+    "places": "Brooklyn Paramount"
+  },
+  {
+    "id": "brooklyn-steel",
+    "name": "Brooklyn Steel",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "concert venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "concert",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Big-box Williamsburg concert venue: straightforward, strong sound, easy to build around a show.",
+    "fit": "there is a specific touring act to see",
+    "gmaps": "https://maps.google.com/maps?q=Brooklyn+Steel&ftid=0x89c2594d7f0fffff:0x698d1ca27a7558c8",
+    "siteLinks": [
+      {
+        "label": "Shows",
+        "url": "https://www.bowerypresents.com/new-york-metro/shows/brooklyn-steel"
+      }
+    ],
+    "lat": 40.7193577,
+    "lon": -73.9387939,
+    "places": "Brooklyn Steel"
+  },
+  {
+    "id": "eris",
+    "name": "Eris",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "bar / venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "calendar",
+      "brooklyn",
+      "low-key"
+    ],
+    "blurb": "Williamsburg art/music/performance venue with a looser, more local event-calendar feel.",
+    "fit": "the calendar has something weird or interesting",
+    "gmaps": "https://maps.google.com?q=Eris,%20167%20Graham%20Ave,%20Brooklyn,%20NY%2011206&ftid=0x89c25bfdb46bffff:0x36412fa610f8941b",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.erisevolution.com/"
+      }
+    ],
+    "lat": 40.7072671,
+    "lon": -73.9439547,
+    "places": "Eris"
+  },
+  {
+    "id": "good-room",
+    "name": "Good Room",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Greenpoint music club",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "dancing",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Greenpoint music club for a focused dance-floor night without Manhattan gloss.",
+    "fit": "the DJ lineup is the reason to go",
+    "gmaps": "https://www.google.com/maps/place/Good+Room/@40.7269376,-73.9529121,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25946b09ba761:0x90af8ca50b67a075",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.goodroombk.com/"
+      }
+    ],
+    "lat": 40.7269376,
+    "lon": -73.9529121,
+    "places": "Good Room"
+  },
+  {
+    "id": "house-of-yes",
+    "name": "House of Yes",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "performance nightclub",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "dancing",
+      "weird",
+      "calendar"
+    ],
+    "blurb": "Bushwick performance nightlife: costumes, circus, drag, dance parties, and very specific energy.",
+    "fit": "the friend wants weird/fun Brooklyn, not low-key drinks",
+    "gmaps": "https://www.google.com/maps/place/House+of+Yes/@40.7068,-73.9236,16z/data=!3m1!4b1!4m2!3m1!1s0x89c25eab37fd60ef:0x1ff34649b0a304c9",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.houseofyes.org/"
+      }
+    ],
+    "lat": 40.7068,
+    "lon": -73.9236,
+    "places": "House of Yes"
+  },
+  {
+    "id": "avant-gardner-pacha-new-york-watchlist",
+    "name": "Pacha New York / Avant Gardner watchlist",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "large electronic venue watchlist",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "dancing",
+      "calendar",
+      "brooklyn",
+      "check-status"
+    ],
+    "blurb": "Large-scale East Williamsburg electronic venue situation; worth checking only if the lineup is right.",
+    "fit": "a specific DJ/show is doing the work",
+    "gmaps": "https://www.google.com/maps/place/Avant+Gardner/@40.710677,-73.9289253,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25ea8ee3b5b81:0x40bd3a1e00a4f623",
+    "siteLinks": [
+      {
+        "label": "Pacha",
+        "url": "https://pacha-nyc.com/events"
+      },
+      {
+        "label": "Avant",
+        "url": "https://www.avant-gardner.com/shows"
+      }
+    ],
+    "lat": 40.710677,
+    "lon": -73.9289253,
+    "places": "Avant Gardner"
+  },
+  {
+    "id": "quantum-brooklyn",
+    "name": "Quantum Brooklyn",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Gowanus dance venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "dancing",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Gowanus electronic venue; best treated as a calendar-dependent dance option.",
+    "fit": "the lineup is strong enough to justify the trip",
+    "gmaps": "https://www.google.com/maps/place/Quantum+Brooklyn/@40.6695906,-73.9955277,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25af06fd2db11:0xb07f28e0abc7ac27",
+    "siteLinks": [
+      {
+        "label": "RA",
+        "url": "https://ra.co/promoters/120454"
+      }
+    ],
+    "lat": 40.6695906,
+    "lon": -73.9955277,
+    "places": "Quantum Brooklyn"
+  },
+  {
+    "id": "silo",
+    "name": "SILO",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "dance venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "dancing",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Bushwick/Williamsburg dance venue with underground-party DNA and a serious dance-floor focus.",
+    "fit": "the plan is about dancing, not chatting",
+    "gmaps": "https://www.google.com/maps/place/SILO/@40.7105086,-73.922873,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25f29fa63ca19:0xfb2085dad80049bf",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.silobrooklyn.com/"
+      }
+    ],
+    "lat": 40.7105086,
+    "lon": -73.922873,
+    "places": "SILO"
+  },
+  {
+    "id": "the-meadows-brooklyn-monarch",
+    "name": "The Meadows + Brooklyn Monarch",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "live music / DJs",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "concert",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "East Williamsburg live/DJ venue cluster with enough scale for real shows but still Brooklyn-local.",
+    "fit": "a calendar pick should anchor the night",
+    "gmaps": "https://maps.google.com/maps?q=The+Meadows&ftid=0x89c259080fdc4eaf:0x8c2f1ef8e6c375df",
+    "siteLinks": [
+      {
+        "label": "Shows",
+        "url": "https://www.thebrooklynmonarch.com/shows"
+      }
+    ],
+    "lat": 40.72173635,
+    "lon": -73.93647709999999,
+    "places": "The Meadows | The Brooklyn Monarch"
+  },
+  {
+    "id": "madame-bont",
+    "name": "Madame Bonté",
+    "area": "Uptown",
+    "where": "UES / Uptown",
+    "vibe": "UES cafe",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "cafe",
+      "uptown",
+      "low-key",
+      "easy"
+    ],
+    "blurb": "UES cafe / wine-bar hybrid: useful when uptown needs something more charming than a chain.",
+    "fit": "a low-key uptown pause",
+    "gmaps": "https://www.google.com/maps/dir//Madame+Bont%C3%A9,+318+E+84th+St,+New+York,+NY+10028/data=!3m1!4b1!4m5!4m4!1m0!1m2!1m1!1s0x0:0x3a294123a164c9fe",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.madamebonte.com/"
+      }
+    ],
+    "lat": 40.7769288,
+    "lon": -73.9520948,
+    "places": "Madame Bonté"
+  },
+  {
+    "id": "the-penrose-bar",
+    "name": "The Penrose Bar",
+    "area": "Uptown",
+    "where": "UES / Uptown",
+    "vibe": "UES bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "drinks",
+      "uptown",
+      "easy",
+      "casual"
+    ],
+    "blurb": "UES gastropub/bar with enough polish, food, and late-night utility to be broadly useful.",
+    "fit": "uptown drinks need to be easy",
+    "gmaps": "https://maps.google.com?q=The%20Penrose%20Bar,%201590%202nd%20Ave%202nd%20floor,%20New%20York,%20NY%2010028&ftid=0x89c258bbe48a5413:0xad36d9ea880f501f",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.penrosebar.com/"
+      }
+    ],
+    "lat": 40.7755721,
+    "lon": -73.9505317,
+    "places": "The Penrose Bar"
+  },
+  {
+    "id": "cooper-hewitt-smithsonian-design-museum",
+    "name": "Cooper Hewitt, Smithsonian Design Museum",
+    "area": "Uptown",
+    "where": "UES / Uptown",
+    "vibe": "design museum",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "design",
+      "museum",
+      "uptown",
+      "rainy"
+    ],
+    "blurb": "Design-focused museum in the Carnegie Mansion; more specific than the default museum circuit.",
+    "fit": "a museum stop should feel curated, visual, and not too obvious",
+    "gmaps": "https://maps.google.com?q=Cooper%20Hewitt,%20Smithsonian%20Design%20Museum,%202%20E%2091st%20St,%20New%20York,%20NY%2010128&ftid=0x89c258a2492a3fb1:0x2028546238b46dfa",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.cooperhewitt.org/"
+      }
+    ],
+    "lat": 40.78434,
+    "lon": -73.95777,
+    "places": "Cooper Hewitt, Smithsonian Design Museum"
+  },
+  {
+    "id": "roosevelt-island",
+    "name": "Roosevelt Island",
+    "area": "Waterfront / islands",
+    "where": "Roosevelt Island",
+    "vibe": "tram + skyline walk",
+    "type": "outdoors",
+    "typeLabel": "Outside",
+    "tags": [
+      "outside",
+      "views",
+      "quirky",
+      "low-key"
+    ],
+    "blurb": "Tram plus waterfront skyline walk: a small NYC detour that still feels novel.",
+    "fit": "the group wants views without doing a tourist deck",
+    "gmaps": "https://maps.google.com?q=Roosevelt%20Island,%20New%20York,%20NY%2010044&ftid=0x89c258c4d85a0d8d:0x11f877ff0b8ffe27",
+    "siteLinks": [
+      {
+        "label": "Tram",
+        "url": "https://www.rioc.ny.gov/community/transportation/tram"
+      }
+    ],
+    "lat": 40.761302,
+    "lon": -73.9507771,
+    "places": "Roosevelt Island"
+  }
+]

@@ -1,0 +1,29 @@
+# Local editor / agent state
+.vscode/
+vscode/
+opencode/
+.opencode/
+
+# Vercel / deployment state
+.vercel/
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies / caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# OS/editor noise
+.DS_Store
+.idea/
+*.swp
+
+# Temporary artifacts
+dist/
+tmp/
+*.log
