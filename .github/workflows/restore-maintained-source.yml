@@ -1,0 +1,63 @@
+name: Restore maintained source
+
+on:
+  push:
+    paths:
+      - .github/workflows/restore-maintained-source.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: restore-maintained-source
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify frozen source
+        env:
+          SOURCE_URL: https://sb-62h6noavcold.vercel.run/nyc-recs-source-2026-11-12.tar.gz
+          SOURCE_SHA256: cebb68d2d053f925bf515d99b837e713685b758fa3c3080322b9696aff5f2652
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/nyc-source"
+          curl --fail --location --retry 3 --retry-all-errors "$SOURCE_URL" -o "$RUNNER_TEMP/nyc-source.tar.gz"
+          printf '%s  %s\n' "$SOURCE_SHA256" "$RUNNER_TEMP/nyc-source.tar.gz" | sha256sum --check --strict
+          tar -xzf "$RUNNER_TEMP/nyc-source.tar.gz" -C "$RUNNER_TEMP/nyc-source"
+
+      - name: Replace obsolete tree
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude='.git/' "$RUNNER_TEMP/nyc-source/" ./
+          rm -f public/og-image.png
+
+      - name: Verify recovered candidate
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install and run release gate
+        run: |
+          set -euo pipefail
+          npm ci
+          npm run verify
+          npm audit --audit-level=low
+          npm audit --omit=dev --audit-level=low
+
+      - name: Commit maintained source atomically
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "fix: restore and harden NYC recs app"
+          git push origin HEAD:main
