@@ -1,0 +1,44 @@
+{
+  "name": "nyc-recs",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate:og": "node scripts/generate-og.mjs",
+    "predev": "npm run generate:assets",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run generate:assets",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test src/lib/*.test.ts",
+    "verify": "npm test && npm run build",
+    "check": "npm run verify",
+    "generate:notices": "node scripts/generate-notices.mjs",
+    "generate:assets": "npm run generate:og && npm run generate:notices",
+    "lock:restore": "node scripts/restore-lock.mjs",
+    "lock:freeze": "node scripts/freeze-lock.mjs",
+    "install:locked": "npm run lock:restore && npm ci"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "cn": "^0.5.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.61.0",
+    "radix-ui": "^1.8.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

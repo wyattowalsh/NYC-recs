@@ -1,0 +1,197 @@
+[
+  {
+    "id": "rosemary-s",
+    "name": "Rosemary's",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Village Italian",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "italian",
+      "downtown",
+      "easy"
+    ],
+    "blurb": "West Village Italian standby for pasta, wine, and a neighborhood that does half the work.",
+    "fit": "the plan benefits from walking around the Village",
+    "gmaps": "https://maps.google.com/maps?q=Rosemary%27s&ftid=0x89c259968f606e09:0xbe72649c51b8f2b5",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.rosemarysnyc.com/"
+      }
+    ],
+    "lat": 40.7348368,
+    "lon": -73.9998009,
+    "places": "Rosemary's"
+  },
+  {
+    "id": "soothr",
+    "name": "Soothr",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Thai noodles",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "thai",
+      "downtown",
+      "worth-detour"
+    ],
+    "blurb": "Thai noodle favorite with enough buzz to feel special but still easy to understand.",
+    "fit": "downtown Thai is the right call",
+    "gmaps": "https://maps.google.com/maps?q=Soothr&ftid=0x89c25923d7bca4d1:0x5bbeae84d9924f22",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://soothrnyc.com/"
+      }
+    ],
+    "lat": 40.7323017,
+    "lon": -73.9873417,
+    "places": "Soothr"
+  },
+  {
+    "id": "sveta",
+    "name": "Sveta",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "colorful West Village food + drinks",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "cocktails",
+      "date-y",
+      "downtown"
+    ],
+    "blurb": "West Village spot with colorful, slightly over-the-top Eastern European fusion energy.",
+    "fit": "the group wants food with a visual/vibe payoff",
+    "gmaps": "https://maps.google.com?q=Sveta,%2064%20Carmine%20St,%20New%20York,%20NY%2010014&ftid=0x89c25992f2d0df67:0x6c76de729ff40736",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://sveta-nyc.com/"
+      }
+    ],
+    "lat": 40.7296987,
+    "lon": -74.0041228,
+    "places": "Sveta"
+  },
+  {
+    "id": "yellow-rose",
+    "name": "Yellow Rose",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Tex-Mex / tacos",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "casual",
+      "downtown",
+      "low-key"
+    ],
+    "blurb": "East Village Texas-style tacos, margaritas, and casual downtown energy.",
+    "fit": "a low-key dinner should still feel specific",
+    "gmaps": "https://maps.google.com/maps?q=Yellow+Rose&ftid=0x89c25977f637a4f3:0xe20fd16e55943325",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.yellowrosenyc.com/"
+      }
+    ],
+    "lat": 40.7325214,
+    "lon": -73.9879752,
+    "places": "Yellow Rose"
+  },
+  {
+    "id": "smalls-jazz-club",
+    "name": "Smalls Jazz Club",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "small jazz room",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "jazz",
+      "intimate",
+      "classic"
+    ],
+    "blurb": "Basement Village jazz room: intimate, classic, and usually more memorable than another bar.",
+    "fit": "live music should be close-up",
+    "gmaps": "https://maps.google.com/maps?q=Smalls+Jazz+Club&ftid=0x89c25994686b9ebb:0xa994b5b6ffd1279",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.smallslive.com/"
+      }
+    ],
+    "lat": 40.7343873,
+    "lon": -74.002765,
+    "places": "Smalls Jazz Club"
+  },
+  {
+    "id": "village-vanguard",
+    "name": "Village Vanguard",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "classic jazz basement",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "jazz",
+      "intimate",
+      "classic"
+    ],
+    "blurb": "The classic Village jazz basement — serious, historic, and still a great small-room music move.",
+    "fit": "jazz is the anchor, not background noise",
+    "gmaps": "https://maps.google.com?q=Village%20Vanguard,%20178%207th%20Ave%20S,%20New%20York,%20NY%2010014&ftid=0x89c25995cf058dd5:0x21dab46c9da0af89",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://villagevanguard.com/"
+      }
+    ],
+    "lat": 40.7360334,
+    "lon": -74.0016548,
+    "places": "Village Vanguard"
+  },
+  {
+    "id": "south-street-seaport-mcnally-jackson-museum",
+    "name": "Seaport: McNally Jackson + South Street Seaport Museum",
+    "area": "Downtown Manhattan",
+    "where": "Seaport / FiDi",
+    "vibe": "bookshop + maritime museum",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "books",
+      "museum",
+      "downtown",
+      "low-key",
+      "rainy"
+    ],
+    "blurb": "Lower Manhattan detour with cobblestones, a serious bookstore, and the old-port museum layer.",
+    "fit": "a slower downtown add-on with books, boats, and waterfront texture",
+    "gmaps": "https://maps.google.com?q=McNally%20Jackson%20Books%20Seaport,%204%20Fulton%20St,%20New%20York,%20NY%2010038&ftid=0x89c25b4700d54c73:0x29696472fdc2d30e",
+    "siteLinks": [
+      {
+        "label": "McNally",
+        "url": "https://www.mcnallyjackson.com/"
+      },
+      {
+        "label": "Museum",
+        "url": "https://southstreetseaportmuseum.org/"
+      }
+    ],
+    "lat": 40.7064242,
+    "lon": -74.0035379,
+    "places": "McNally Jackson Seaport; South Street Seaport Museum",
+    "primaryPlace": "McNally Jackson"
+  }
+]

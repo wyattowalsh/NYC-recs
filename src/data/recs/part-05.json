@@ -1,0 +1,191 @@
+[
+  {
+    "id": "thyme-bar",
+    "name": "Thyme Bar",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "underground cocktail bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "polished"
+    ],
+    "blurb": "Flatiron cellar cocktail bar with theatrical drinks and a quieter “found it” feeling.",
+    "fit": "cocktails should be the destination",
+    "gmaps": "https://www.google.com/maps?cid=12996047384557728458",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.thymebarnyc.com/"
+      }
+    ],
+    "lat": 40.7417143,
+    "lon": -73.9905555,
+    "places": "Thyme Bar"
+  },
+  {
+    "id": "tomi-jazz",
+    "name": "Tomi Jazz",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "tiny jazz + Japanese food",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "jazz",
+      "intimate",
+      "food"
+    ],
+    "blurb": "Tiny Japanese jazz room in Midtown East: food, drinks, and live sets in close quarters.",
+    "fit": "music should feel intimate, not arena-scale",
+    "gmaps": "https://maps.google.com?q=Tomi%20Jazz,%20239%20E%2053rd%20St,%20New%20York,%20NY%2010022&ftid=0x89c258e39ba7c455:0x54f3dcc370af689c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.tomijazz.com/"
+      }
+    ],
+    "lat": 40.7571749,
+    "lon": -73.9678057,
+    "places": "Tomi Jazz"
+  },
+  {
+    "id": "barcade-chelsea",
+    "name": "Barcade Chelsea",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "arcade bar",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "activity",
+      "beer",
+      "group",
+      "rainy"
+    ],
+    "blurb": "Classic arcade bar format: craft beer, old games, and zero pressure to over-plan.",
+    "fit": "a group needs something to do while drinking",
+    "gmaps": "https://maps.google.com/maps?q=Barcade&ftid=0x89c259a4d5b9e835:0xecbcc1604e8c180a",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://barcade.com/location/new-york-chelsea/"
+      }
+    ],
+    "lat": 40.7442657,
+    "lon": -73.9945268,
+    "places": "Barcade Chelsea"
+  },
+  {
+    "id": "swingers-crazy-golf-nomad",
+    "name": "Swingers Crazy Golf NoMad",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "mini-golf + drinks",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "activity",
+      "group",
+      "rainy",
+      "central"
+    ],
+    "blurb": "Indoor mini-golf under NoMad with cocktails and enough structure to save a loose group plan.",
+    "fit": "people want an activity without making it wholesome",
+    "gmaps": "https://maps.google.com/maps?q=Swingers+Crazy+Golf+-+NoMad&ftid=0x89c2591e52564965:0x911c267e3b00d896",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.swingers.club/us/locations/nyc"
+      }
+    ],
+    "lat": 40.7462976,
+    "lon": -73.9889315,
+    "places": "Swingers Crazy Golf - NoMad"
+  },
+  {
+    "id": "8282",
+    "name": "8282",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "modern Korean",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "korean",
+      "downtown",
+      "date-y"
+    ],
+    "blurb": "LES modern Korean: playful, shareable, and better for a small dinner than a giant group.",
+    "fit": "downtown dinner should be fun but still food-led",
+    "gmaps": "https://maps.google.com?q=8282,%2084%20Stanton%20St,%20New%20York,%20NY%2010002&ftid=0x89c2591b7208a535:0x56cf8479930f8f1c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.eightwoeightwo.com/"
+      }
+    ],
+    "lat": 40.7216663,
+    "lon": -73.988781,
+    "places": "8282"
+  },
+  {
+    "id": "cath-drale-restaurant",
+    "name": "Cathédrale Restaurant",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "dramatic East Village room",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "scene",
+      "group",
+      "downtown"
+    ],
+    "blurb": "Dramatic East Village dining room — big ceiling, scene energy, and French-Mediterranean food.",
+    "fit": "the room matters as much as the meal",
+    "gmaps": "https://maps.google.com?q=Cath%C3%A9drale%20Restaurant,%20112%20E%2011th%20St,%20New%20York,%20NY%2010003&ftid=0x89c2597287a09225:0x86ecccf38f4be271",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://taogroup.com/venues/cathedrale-new-york/"
+      }
+    ],
+    "lat": 40.7315339,
+    "lon": -73.9891975,
+    "places": "Cathédrale Restaurant"
+  },
+  {
+    "id": "noreetuh",
+    "name": "noreetuh",
+    "area": "Downtown Manhattan",
+    "where": "Village / SoHo / LES",
+    "vibe": "Hawaiian + wine",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "wine",
+      "downtown",
+      "hidden"
+    ],
+    "blurb": "Modern Hawaiian East Village spot with a deep wine list and a quieter, sharper feel.",
+    "fit": "a dinner pick should be distinctive without shouting",
+    "gmaps": "https://maps.google.com?q=noreetuh,%20128%201st%20Ave.,%20New%20York,%20NY%2010009&ftid=0x89c2599d1758313f:0x412583d5e718046c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.noreetuh.com/"
+      }
+    ],
+    "lat": 40.7273295,
+    "lon": -73.9852902,
+    "places": "noreetuh"
+  }
+]

@@ -27,3 +27,12 @@ node_modules/
 dist/
 tmp/
 *.log
+
+# Generated social card
+public/og-image.png
+
+public/third-party-notices.txt
+
+# Materialized from the checksum-pinned lock snapshot
+package-lock.json
+.vercel

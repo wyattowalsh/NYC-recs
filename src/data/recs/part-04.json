@@ -1,0 +1,196 @@
+[
+  {
+    "id": "yakitori-totto",
+    "name": "Yakitori Totto",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "yakitori",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "japanese",
+      "intimate",
+      "central"
+    ],
+    "blurb": "Tiny Midtown yakitori institution with smoky skewers and a tucked-away feel.",
+    "fit": "Japanese food should feel more like a find than a default",
+    "gmaps": "https://maps.google.com?q=Yakitori%20Totto,%20251%20W%2055th%20St%202nd%20Floor,%20New%20York,%20NY%2010019&ftid=0x89c258580128484f:0x4117c8456cb5894b",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.yakitoritotto.com/"
+      }
+    ],
+    "lat": 40.7653141,
+    "lon": -73.983126,
+    "places": "Yakitori Totto"
+  },
+  {
+    "id": "experimental-cocktail-club",
+    "name": "Experimental Cocktail Club",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "basement cocktail lounge",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "central"
+    ],
+    "blurb": "Subterranean Flatiron cocktail room under La Compagnie; polished but still hidden-feeling.",
+    "fit": "a cocktail-first stop with a little discovery factor",
+    "gmaps": "https://maps.google.com/maps?q=Experimental+Cocktail+Club&ftid=0x89c259006ed0a171:0x39b084041c7b9ee0",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.experimentalcocktailclub.com/new-york"
+      }
+    ],
+    "lat": 40.7425357,
+    "lon": -73.9903322,
+    "places": "Experimental Cocktail Club"
+  },
+  {
+    "id": "glass-ceiling-nomad",
+    "name": "Glass Ceiling NoMad",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "NoMad rooftop",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "rooftop",
+      "cocktails",
+      "views",
+      "group"
+    ],
+    "blurb": "NoMad rooftop with Manhattan energy, skyline atmosphere, and enough scene without going full club.",
+    "fit": "a rooftop is the move but the vibe should stay controlled",
+    "gmaps": "https://maps.google.com?q=Glass%20Ceiling%20Nomad,%201204%20Broadway,%20New%20York,%20NY%2010001&ftid=0x89c259f4128ba469:0xa0d66394e95418f2",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://glassceilingrooftop.com/"
+      }
+    ],
+    "lat": 40.7463128,
+    "lon": -73.9882511,
+    "places": "Glass Ceiling NoMad / Rooftop"
+  },
+  {
+    "id": "madame-george-valerie",
+    "name": "Madame George + VALERIE",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "cocktails + polished food",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "food",
+      "date-y",
+      "central"
+    ],
+    "blurb": "Midtown combo: Madame George for subterranean cocktails; Valerie for polished food nearby.",
+    "fit": "a central night needs one reliable anchor and a good drink",
+    "gmaps": "https://maps.google.com?q=Madame%20George,%2045%20W%2045th%20St,%20New%20York,%20NY%2010036&ftid=0x89c25983043c781d:0x72fb1f8fbd8344a5",
+    "siteLinks": [
+      {
+        "label": "Madame George",
+        "url": "https://www.madamegeorgenyc.com/"
+      },
+      {
+        "label": "Valerie",
+        "url": "https://www.valerienewyorkcity.com/"
+      }
+    ],
+    "lat": 40.756359,
+    "lon": -73.9811027,
+    "places": "Madame George | VALERIE",
+    "primaryPlace": "Madame George"
+  },
+  {
+    "id": "osamil-upstairs",
+    "name": "Osamil Upstairs",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Korean cocktail lounge",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "central"
+    ],
+    "blurb": "Koreatown upstairs cocktail lounge above Osamil; tucked away but still easy to route.",
+    "fit": "K-town dinner needs a better next stop",
+    "gmaps": "https://maps.google.com/maps?q=Osamil+Upstairs&ftid=0x89c259215a5a30a9:0x604fb7091a55136a",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.osamilupstairs.com/"
+      }
+    ],
+    "lat": 40.746961,
+    "lon": -73.9864309,
+    "places": "Osamil Upstairs"
+  },
+  {
+    "id": "patent-pending",
+    "name": "Patent Pending",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "NoMad speakeasy",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "hidden",
+      "date-y",
+      "central"
+    ],
+    "blurb": "NoMad speakeasy in the Radio Wave Building with a Tesla-era backstory and intimate room.",
+    "fit": "someone wants the hidden-door cocktail thing done well",
+    "gmaps": "https://maps.google.com?q=Patent%20Pending,%2049%20W%2027th%20St,%20New%20York,%20NY%2010001&ftid=0x89c259a5ec84b6a3:0xb014f4ed14104d39",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.patentpendingnyc.com/"
+      }
+    ],
+    "lat": 40.7453222,
+    "lon": -73.9902716,
+    "places": "Patent Pending"
+  },
+  {
+    "id": "pebble-bar",
+    "name": "Pebble Bar",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Rockefeller townhouse bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "classic",
+      "central",
+      "date-y"
+    ],
+    "blurb": "Rockefeller Center townhouse bar with old-New-York polish and a useful Midtown location.",
+    "fit": "a central drink should feel a little elevated",
+    "gmaps": "https://maps.google.com?q=Pebble%20Bar,%2067%20W%2049th%20St,%20New%20York,%20NY%2010112&ftid=0x89c259e1511249af:0xd5d725708b4dc1f0",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.pebblebarnyc.com/"
+      }
+    ],
+    "lat": 40.7592299,
+    "lon": -73.9804917,
+    "places": "Pebble Bar"
+  }
+]

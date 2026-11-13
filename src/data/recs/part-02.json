@@ -1,0 +1,201 @@
+[
+  {
+    "id": "finback-lic-fifth-hammer-brewing",
+    "name": "Finback LIC + Fifth Hammer Brewing",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC brewery crawl",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "beer",
+      "local",
+      "group",
+      "easy"
+    ],
+    "blurb": "Two LIC taprooms close enough to treat as one flexible beer move.",
+    "fit": "low-pressure beers with room to hang",
+    "gmaps": "https://maps.google.com/maps?q=Finback+LIC&ftid=0x89c259aeca545099:0xa319fab985141545",
+    "siteLinks": [
+      {
+        "label": "Finback",
+        "url": "https://finbackbrewery.com/finback-home"
+      },
+      {
+        "label": "Fifth Hammer",
+        "url": "https://www.fifthhammerbrewing.com/"
+      }
+    ],
+    "lat": 40.7499266,
+    "lon": -73.9365137,
+    "places": "Finback LIC | Fifth Hammer Brewing Company",
+    "primaryPlace": "Finback LIC"
+  },
+  {
+    "id": "lost-in-paradise-rooftop",
+    "name": "Lost in Paradise Rooftop",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC rooftop",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "rooftop",
+      "views",
+      "local",
+      "group"
+    ],
+    "blurb": "Queens rooftop with skyline payoff and less friction than most Manhattan rooftops.",
+    "fit": "views matter but the plan should stay local",
+    "gmaps": "https://maps.google.com?q=Lost%20in%20Paradise%20Rooftop,%2011-01%2043rd%20Ave,%20Long%20Island%20City,%20NY%2011101&ftid=0x89c259927ec6088d:0xe70dcfe6421fca44",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.lostinparadiserooftop.com/"
+      }
+    ],
+    "lat": 40.7520767,
+    "lon": -73.9473212,
+    "places": "Lost in Paradise Rooftop"
+  },
+  {
+    "id": "vista-sky-lounge",
+    "name": "Vista Sky Lounge",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC skyline drinks",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "rooftop",
+      "views",
+      "local",
+      "easy"
+    ],
+    "blurb": "Nearby LIC rooftop / skyline option that keeps the Manhattan-view box easy to check.",
+    "fit": "a view stop without making it the main event",
+    "gmaps": "https://maps.google.com?q=Vista%20Sky%20Lounge,%2027-05%2039th%20Ave,%20Long%20Island%20City,%20NY%2011101&ftid=0x89c25f2cb483e901:0x10736dc6e7eff1ad",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://vistalic.com/"
+      }
+    ],
+    "lat": 40.754388,
+    "lon": -73.9357675,
+    "places": "Vista Sky Lounge"
+  },
+  {
+    "id": "brooklyn-boulders-queensbridge",
+    "name": "Brooklyn Boulders Queensbridge",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "climbing gym",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "active",
+      "local",
+      "rainy",
+      "group"
+    ],
+    "blurb": "Indoor climbing in LIC: active, social, and actually useful when weather is bad.",
+    "fit": "a group wants movement instead of another sit-down spot",
+    "gmaps": "https://maps.google.com/maps?q=Brooklyn+Boulders+Queensbridge&ftid=0x89c258d4154b761f:0xdfdaee821dca7795",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://qb.brooklynboulders.com/"
+      }
+    ],
+    "lat": 40.7526405,
+    "lon": -73.9400914,
+    "places": "Brooklyn Boulders Queensbridge"
+  },
+  {
+    "id": "partners-coffee-gantry-plaza-state-park",
+    "name": "Partners Coffee + Gantry Plaza State Park",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "coffee + skyline walk",
+    "type": "outdoors",
+    "typeLabel": "Outside",
+    "tags": [
+      "outside",
+      "views",
+      "local",
+      "easy"
+    ],
+    "blurb": "Good LIC coffee plus the waterfront skyline walk — simple, local, and hard to beat.",
+    "fit": "a low-commitment NYC view with caffeine attached",
+    "gmaps": "https://maps.google.com?q=Partners%20Coffee,%2026-25%20Jackson%20Ave,%20Queens,%20NY%2011101&ftid=0x89c2592977004343:0x7b53c0491a055f4e",
+    "siteLinks": [
+      {
+        "label": "Partners",
+        "url": "https://www.partnerscoffee.com/pages/retail-locations"
+      },
+      {
+        "label": "Gantry",
+        "url": "https://parks.ny.gov/parks/gantryplaza/details.aspx"
+      }
+    ],
+    "lat": 40.747591,
+    "lon": -73.9415456,
+    "places": "Partners Coffee | Gantry Plaza State Park",
+    "primaryPlace": "Partners Coffee"
+  },
+  {
+    "id": "socrates-sculpture-park",
+    "name": "Socrates Sculpture Park",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "outdoor art park",
+    "type": "outdoors",
+    "typeLabel": "Outside",
+    "tags": [
+      "outside",
+      "art",
+      "free",
+      "local"
+    ],
+    "blurb": "Free outdoor sculpture park on the Queens waterfront, more local-feeling than tourist-core.",
+    "fit": "a daylight walk with art and skyline texture",
+    "gmaps": "https://maps.google.com/maps?q=Socrates+Sculpture+Park&ftid=0x89c258b558e6c8bd:0xc0d1b4d831853d17",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://socratessculpturepark.org/"
+      }
+    ],
+    "lat": 40.7688089,
+    "lon": -73.9365099,
+    "places": "Socrates Sculpture Park"
+  },
+  {
+    "id": "casa-mono",
+    "name": "Casa Mono",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "Spanish / tapas",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "polished",
+      "wine",
+      "worth-detour"
+    ],
+    "blurb": "Tiny Spanish/tapas room near Union Square when the meal itself should carry the plan.",
+    "fit": "a more serious food choice without going ultra-formal",
+    "gmaps": "https://maps.google.com/maps?q=Casa+Mono&ftid=0x89c2599f606cdd51:0x8ed7490789a74a46",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.casamononyc.com/"
+      }
+    ],
+    "lat": 40.7358936,
+    "lon": -73.9871361,
+    "places": "Casa Mono"
+  }
+]

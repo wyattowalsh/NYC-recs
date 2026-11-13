@@ -1,0 +1,112 @@
+[
+  {
+    "id": "madame-bont",
+    "name": "Madame Bonté",
+    "area": "Uptown",
+    "where": "UES / Uptown",
+    "vibe": "temporarily closed · UES cafe",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "temporarily-closed",
+      "cafe",
+      "uptown",
+      "low-key",
+      "easy"
+    ],
+    "blurb": "Google Maps currently marks this 84th Street location temporarily closed. Check the attached listing before planning a visit.",
+    "fit": "a low-key uptown pause",
+    "gmaps": "https://www.google.com/maps?cid=4190952549532355070",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.madamebonte.com/"
+      }
+    ],
+    "lat": 40.7760219,
+    "lon": -73.9519287,
+    "places": "Madame Bonté",
+    "statusChecked": "2026-11-11"
+  },
+  {
+    "id": "the-penrose-bar",
+    "name": "The Penrose Bar",
+    "area": "Uptown",
+    "where": "UES / Uptown",
+    "vibe": "UES bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "drinks",
+      "uptown",
+      "easy",
+      "casual"
+    ],
+    "blurb": "UES gastropub/bar with enough polish, food, and late-night utility to be broadly useful.",
+    "fit": "uptown drinks need to be easy",
+    "gmaps": "https://maps.google.com?q=The%20Penrose%20Bar,%201590%202nd%20Ave%202nd%20floor,%20New%20York,%20NY%2010028&ftid=0x89c258bbe48a5413:0xad36d9ea880f501f",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.penrosebar.com/"
+      }
+    ],
+    "lat": 40.7754348,
+    "lon": -73.9531179,
+    "places": "The Penrose Bar"
+  },
+  {
+    "id": "cooper-hewitt-smithsonian-design-museum",
+    "name": "Cooper Hewitt, Smithsonian Design Museum",
+    "area": "Uptown",
+    "where": "UES / Uptown",
+    "vibe": "design museum",
+    "type": "activity",
+    "typeLabel": "Activity",
+    "tags": [
+      "design",
+      "museum",
+      "uptown",
+      "rainy"
+    ],
+    "blurb": "Design-focused museum in the Carnegie Mansion; more specific than the default museum circuit.",
+    "fit": "a museum stop should feel curated, visual, and not too obvious",
+    "gmaps": "https://maps.google.com?q=Cooper%20Hewitt,%20Smithsonian%20Design%20Museum,%202%20E%2091st%20St,%20New%20York,%20NY%2010128&ftid=0x89c258a2492a3fb1:0x2028546238b46dfa",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.cooperhewitt.org/"
+      }
+    ],
+    "lat": 40.7843958,
+    "lon": -73.9578732,
+    "places": "Cooper Hewitt, Smithsonian Design Museum"
+  },
+  {
+    "id": "roosevelt-island",
+    "name": "Roosevelt Island",
+    "area": "Waterfront / islands",
+    "where": "Roosevelt Island",
+    "vibe": "tram + skyline walk",
+    "type": "outdoors",
+    "typeLabel": "Outside",
+    "tags": [
+      "outside",
+      "views",
+      "quirky",
+      "low-key"
+    ],
+    "blurb": "Tram plus waterfront skyline walk: a small NYC detour that still feels novel.",
+    "fit": "the group wants views without doing a tourist deck",
+    "gmaps": "https://maps.google.com?q=Roosevelt%20Island,%20New%20York,%20NY%2010044&ftid=0x89c258c4d85a0d8d:0x11f877ff0b8ffe27",
+    "siteLinks": [
+      {
+        "label": "Tram",
+        "url": "https://www.rioc.ny.gov/community/transportation/tram"
+      }
+    ],
+    "lat": 40.7605031,
+    "lon": -73.9509934,
+    "places": "Roosevelt Island"
+  }
+]

@@ -1,0 +1,15 @@
+.git/
+.opencode/
+opencode/
+.vscode/
+vscode/
+openspec/
+node_modules/
+dist/
+tmp/
+.env
+.env.*
+*.pem
+*.key
+*.log
+.DS_Store

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "bersi-ethiopian-restaurant",
+    "name": "Bersi Ethiopian Restaurant",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Ethiopian",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "brooklyn",
+      "hidden",
+      "casual"
+    ],
+    "blurb": "Greenpoint Ethiopian with a more distinctive group-table feel than another generic dinner.",
+    "fit": "people are open to sharing and eating with their hands",
+    "gmaps": "https://maps.google.com/maps?q=Bersi+Ethiopian+Restaurant&ftid=0x89c259ed5b773f57:0x100dedb3b1af218b",
+    "siteLinks": [
+      {
+        "label": "IG",
+        "url": "https://www.instagram.com/bersi_ethiopian_restaurant/"
+      }
+    ],
+    "lat": 40.7346617,
+    "lon": -73.9551437,
+    "places": "Bersi Ethiopian Restaurant"
+  },
+  {
+    "id": "rule-of-thirds",
+    "name": "Rule of Thirds",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Greenpoint Japanese",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "japanese",
+      "brooklyn",
+      "polished"
+    ],
+    "blurb": "Greenpoint Japanese with a polished industrial room and easy Brooklyn dinner energy.",
+    "fit": "Brooklyn dinner should feel designed but not precious",
+    "gmaps": "https://www.google.com/maps?cid=3930237066437013534",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.thirdsbk.com/"
+      }
+    ],
+    "lat": 40.7247448,
+    "lon": -73.9552327,
+    "places": "Rule of Thirds"
+  },
+  {
+    "id": "cpt-dan-s-good-time-tavern",
+    "name": "Cpt. Dan’s Good Time Tavern",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Bed-Stuy dive / party bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "drinks",
+      "dive",
+      "brooklyn",
+      "late"
+    ],
+    "blurb": "Bed-Stuy neighborhood bar with personality, food, and dive-adjacent looseness.",
+    "fit": "the plan is already in Brooklyn and wants a casual landing spot",
+    "gmaps": "https://www.google.com/maps/place/Cpt.+Dan%27s+Good+Time+Tavern/@40.688611,-73.951059,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25b93a97efacd:0x92dbc6c7eeb7d83c",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://captdansgoodtimetavern.com/"
+      }
+    ],
+    "lat": 40.688611,
+    "lon": -73.951059,
+    "places": "Cpt. Dan’s Good Time Tavern"
+  },
+  {
+    "id": "eavesdrop",
+    "name": "Eavesdrop",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Greenpoint listening bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "music",
+      "hidden",
+      "brooklyn"
+    ],
+    "blurb": "Greenpoint listening bar built around sound, cocktails, natural wine, and a calmer nightlife lane.",
+    "fit": "a night out should feel intentional, not chaotic",
+    "gmaps": "https://maps.google.com?q=Eavesdrop,%20674%20Manhattan%20Ave,%20Brooklyn,%20NY%2011222&ftid=0x89c259fa9d09d51d:0x4589f1db20dcacf7",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.eavesdrop.nyc/"
+      }
+    ],
+    "lat": 40.724922,
+    "lon": -73.9511595,
+    "places": "Eavesdrop"
+  },
+  {
+    "id": "fresh-kills-bar",
+    "name": "Fresh Kills Bar",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "Williamsburg cocktail bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "brooklyn",
+      "low-key",
+      "date-y"
+    ],
+    "blurb": "Williamsburg cocktail bar with no-fuss, serious drinks and neighborhood-bar restraint.",
+    "fit": "cocktails should be excellent but not flashy",
+    "gmaps": "https://maps.google.com/maps?q=Fresh+Kills+Bar&ftid=0x89c2596059a773ef:0xdb075cac1a1aecaa",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://freshkillsbar.com/"
+      }
+    ],
+    "lat": 40.714722,
+    "lon": -73.9615566,
+    "places": "Fresh Kills Bar"
+  },
+  {
+    "id": "brooklyn-paramount",
+    "name": "Brooklyn Paramount",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "concert venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "concert",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Restored Downtown Brooklyn theater with a grander room than the average concert stop.",
+    "fit": "the artist matters and the venue should feel like part of it",
+    "gmaps": "https://www.google.com/maps/place/Brooklyn+Paramount/@40.6900766,-73.9810749,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25b03462fbacf:0x1a59a547d47eeb2a",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.brooklynparamount.com/"
+      }
+    ],
+    "lat": 40.6900766,
+    "lon": -73.9810749,
+    "places": "Brooklyn Paramount"
+  },
+  {
+    "id": "brooklyn-steel",
+    "name": "Brooklyn Steel",
+    "area": "Brooklyn",
+    "where": "Brooklyn",
+    "vibe": "concert venue",
+    "type": "music",
+    "typeLabel": "Music",
+    "tags": [
+      "music",
+      "concert",
+      "calendar",
+      "brooklyn"
+    ],
+    "blurb": "Big-box Williamsburg concert venue: straightforward, strong sound, easy to build around a show.",
+    "fit": "there is a specific touring act to see",
+    "gmaps": "https://maps.google.com/maps?q=Brooklyn+Steel&ftid=0x89c2594d7f0fffff:0x698d1ca27a7558c8",
+    "siteLinks": [
+      {
+        "label": "Shows",
+        "url": "https://www.bowerypresents.com/new-york-metro/shows/brooklyn-steel"
+      }
+    ],
+    "lat": 40.7193577,
+    "lon": -73.9387939,
+    "places": "Brooklyn Steel"
+  }
+]

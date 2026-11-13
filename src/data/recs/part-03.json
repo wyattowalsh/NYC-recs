@@ -1,0 +1,195 @@
+[
+  {
+    "id": "chalong-nyc",
+    "name": "Chalong NYC",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Hell’s Kitchen Thai",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "thai",
+      "worth-detour",
+      "central"
+    ],
+    "blurb": "Hell’s Kitchen Thai that feels like an upgrade from the usual Midtown default.",
+    "fit": "central logistics plus food that still has a point of view",
+    "gmaps": "https://maps.google.com/maps?q=Chalong+NYC&ftid=0x89c2591e368c0087:0x99124cb91291893a",
+    "siteLinks": [
+      {
+        "label": "MICHELIN",
+        "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chalong"
+      },
+      {
+        "label": "IG",
+        "url": "https://www.instagram.com/chalongnyc/"
+      }
+    ],
+    "lat": 40.7639556,
+    "lon": -73.9889945,
+    "places": "Chalong NYC"
+  },
+  {
+    "id": "empellon",
+    "name": "Empellon",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "polished Mexican",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "polished",
+      "central",
+      "date-y"
+    ],
+    "blurb": "Polished Midtown Mexican with enough structure for a proper dinner but not stiff energy.",
+    "fit": "a cleaner, reservation-friendly central meal",
+    "gmaps": "https://maps.google.com/maps?q=Empellon&ftid=0x89c258fb9bf4bef1:0x472ca37882106ca8",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.empellon.com/restaurants/empellon/"
+      }
+    ],
+    "lat": 40.7597022,
+    "lon": -73.9746995,
+    "places": "Empellon"
+  },
+  {
+    "id": "katsu-hama",
+    "name": "Katsu-Hama",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "tonkatsu",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "japanese",
+      "central",
+      "easy"
+    ],
+    "blurb": "Straightforward tonkatsu classic in Midtown: crispy, reliable, and unpretentious.",
+    "fit": "a satisfying meal between other Manhattan stops",
+    "gmaps": "https://maps.google.com/maps?q=Katsu-Hama&ftid=0x89c258fe7a2e5949:0x9707493ff4f17cc6",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://katsuhamanyc.com/"
+      }
+    ],
+    "lat": 40.756504,
+    "lon": -73.9776077,
+    "places": "Katsu-Hama"
+  },
+  {
+    "id": "mitr-thai-restaurant",
+    "name": "Mitr Thai Restaurant",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Midtown Thai",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "thai",
+      "central",
+      "easy"
+    ],
+    "blurb": "Colorful Midtown Thai with stronger atmosphere than the average Theater District fallback.",
+    "fit": "central Thai when convenience still matters",
+    "gmaps": "https://maps.google.com/maps?q=Mitr+Thai+Restaurant&ftid=0x89c259c2d782a2dd:0x42f5e1bd339df757",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.mitrthainyc.com/"
+      }
+    ],
+    "lat": 40.7568769,
+    "lon": -73.9804147,
+    "places": "Mitr Thai Restaurant"
+  },
+  {
+    "id": "m-l-project",
+    "name": "MáLà Project",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "Sichuan dry-pot",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "spicy",
+      "group",
+      "central"
+    ],
+    "blurb": "Sichuan dry-pot crowd-pleaser: customizable, spicy, and group-friendly.",
+    "fit": "a table wants shared food with some heat",
+    "gmaps": "https://maps.google.com?q=M%C3%A1L%C3%A0%20Project,%20245%20E%2053rd%20St,%20New%20York,%20NY%2010022&ftid=0x89c259c833408273:0xdf0cd31a37a42533",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.malaproject.com/"
+      }
+    ],
+    "lat": 40.7571499,
+    "lon": -73.9676483,
+    "places": "MáLà Project"
+  },
+  {
+    "id": "p-s-kitchen",
+    "name": "P.S. Kitchen",
+    "area": "Central Manhattan",
+    "where": "Midtown / NoMad / K-Town",
+    "vibe": "plant-forward",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "vegetarian",
+      "central",
+      "easy"
+    ],
+    "blurb": "Plant-based Times Square/Hell’s Kitchen option that is actually useful for mixed dietary groups.",
+    "fit": "someone needs vegan/kosher-friendly central logistics",
+    "gmaps": "https://www.google.com/maps?cid=6489205599059287791",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.ps-kitchen.com/"
+      }
+    ],
+    "lat": 40.7607245,
+    "lon": -73.9866008,
+    "places": "P.S. Kitchen"
+  },
+  {
+    "id": "ulivo",
+    "name": "Ulivo",
+    "area": "Central Manhattan",
+    "where": "Chelsea / Flatiron",
+    "vibe": "Flatiron Italian",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "italian",
+      "central",
+      "easy"
+    ],
+    "blurb": "Flatiron Italian that works when the group wants pasta, wine, and no weirdness.",
+    "fit": "a comfortable central dinner fallback",
+    "gmaps": "https://www.google.com/maps?cid=17807917194677825914",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.ulivonyc.com/"
+      }
+    ],
+    "lat": 40.7447849,
+    "lon": -73.9879963,
+    "places": "Ulivo"
+  }
+]

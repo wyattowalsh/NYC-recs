@@ -1,0 +1,192 @@
+[
+  {
+    "id": "little-flower-cafe",
+    "name": "Little Flower Cafe",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "Astoria cafe",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "cafe",
+      "local",
+      "low-key",
+      "easy",
+      "pastry"
+    ],
+    "blurb": "Afghan-rooted Astoria cafe with better-than-chain coffee, pastries, and neighborhood energy.",
+    "fit": "a low-friction Queens reset with real personality",
+    "gmaps": "https://maps.google.com/maps?q=Little+Flower+Cafe&ftid=0x89c25f0cac92f1b3:0x9c73a6306cc776ad",
+    "siteLinks": [
+      {
+        "label": "IG",
+        "url": "https://www.instagram.com/littleflowercafe/"
+      }
+    ],
+    "lat": 40.7578989,
+    "lon": -73.9321997,
+    "places": "Little Flower Cafe"
+  },
+  {
+    "id": "m-tea",
+    "name": "M Tea",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "dessert / bubble tea",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "dessert",
+      "local",
+      "casual",
+      "easy"
+    ],
+    "blurb": "Playful LIC bubble-tea and dessert stop with a little more design than the average grab-and-go.",
+    "fit": "a quick sweet add-on, not the whole plan",
+    "gmaps": "https://maps.google.com?q=M%20Tea,%2023-01%2041st%20Ave%20Store%201D,%20Queens,%20NY%2011101&ftid=0x89c25973a3a942df:0xda5c3923954abc91",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.mteanyc.com/"
+      }
+    ],
+    "lat": 40.7530724,
+    "lon": -73.940253,
+    "places": "M Tea"
+  },
+  {
+    "id": "matsunori-handroll-bar",
+    "name": "Matsunori Handroll Bar",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC handroll bar",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "sushi",
+      "local",
+      "casual"
+    ],
+    "blurb": "Compact LIC handroll bar for crisp nori, fresh fish, and an easy sushi fix without trekking downtown.",
+    "fit": "a focused Queens meal that stays simple",
+    "gmaps": "https://www.google.com/maps/place/Matsunori+Handroll+Bar/@40.7465358,-73.9427434,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2590445b08429:0x14e0061eed360ead",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://matsunori.com/lic"
+      }
+    ],
+    "lat": 40.7465358,
+    "lon": -73.9427434,
+    "places": "Matsunori Handroll Bar"
+  },
+  {
+    "id": "pig-beach-bbq-queens",
+    "name": "Pig Beach BBQ Queens",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "BBQ / big-group hang",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "group",
+      "casual",
+      "local"
+    ],
+    "blurb": "Big-format Queens BBQ with space, beer, and very low social friction.",
+    "fit": "a group that wants easy food and no delicate logistics",
+    "gmaps": "https://maps.google.com?q=Pig%20Beach%20BBQ%20Queens,%2035-37%2036th%20St%20Ground%20Floor,%20Astoria,%20NY%2011106&ftid=0x89c25f4b7cca3eb1:0x23079a253843b75",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.pigbeachnyc.com/"
+      }
+    ],
+    "lat": 40.755083,
+    "lon": -73.9251806,
+    "places": "Pig Beach BBQ Queens"
+  },
+  {
+    "id": "riviera-maya",
+    "name": "Riviera Maya",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "Astoria Mexican",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "food",
+      "local",
+      "casual",
+      "easy"
+    ],
+    "blurb": "Casual Astoria Mexican option when the route is already Queens and nobody wants formality.",
+    "fit": "a simple local fallback",
+    "gmaps": "https://maps.google.com/maps?q=Riviera+Maya&ftid=0x89c25f9689a3c7d9:0xb8e5a7aad3d3aa20",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://rivieramayarestaurant.com/"
+      }
+    ],
+    "lat": 40.7648837,
+    "lon": -73.9145395,
+    "places": "Riviera Maya"
+  },
+  {
+    "id": "softbite-souffle-pancakes",
+    "name": "Softbite | Souffle Pancakes",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "soufflé pancakes",
+    "type": "food",
+    "typeLabel": "Food",
+    "tags": [
+      "dessert",
+      "local",
+      "casual",
+      "easy"
+    ],
+    "blurb": "Fluffy Japanese-style soufflé pancakes in LIC; dessert-first and intentionally cute.",
+    "fit": "a sweet side quest if the route is already in Queens",
+    "gmaps": "https://maps.google.com/maps?q=Softbite+%7C+Souffl%C3%A9+Pancakes&ftid=0x89c2593e29a1d8a3:0x7a373feccb090696",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.softbite.us/"
+      }
+    ],
+    "lat": 40.7491627,
+    "lon": -73.9421105,
+    "places": "Softbite | Soufflé Pancakes"
+  },
+  {
+    "id": "dutch-kills",
+    "name": "Dutch Kills",
+    "area": "Queens",
+    "where": "LIC / Astoria",
+    "vibe": "LIC cocktail bar",
+    "type": "drinks",
+    "typeLabel": "Drinks",
+    "tags": [
+      "cocktails",
+      "local",
+      "low-key",
+      "easy"
+    ],
+    "blurb": "Dark LIC cocktail standby: classic, grown-up, and stronger than the average neighborhood bar.",
+    "fit": "one solid Queens drink without turning it into a production",
+    "gmaps": "https://maps.google.com/maps?q=Dutch+Kills&ftid=0x89c2592a40265cc1:0x107bcc419a23d825",
+    "siteLinks": [
+      {
+        "label": "Site",
+        "url": "https://www.dutchkillsbar.com/"
+      }
+    ],
+    "lat": 40.7476605,
+    "lon": -73.940184,
+    "places": "Dutch Kills"
+  }
+]
