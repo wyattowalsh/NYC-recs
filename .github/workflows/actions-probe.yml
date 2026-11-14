@@ -1,0 +1,16 @@
+name: Actions probe
+
+on:
+  push:
+    branches: [refine-2026-11-14]
+    paths: [.github/workflows/actions-probe.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo "GitHub Actions runner is available."
