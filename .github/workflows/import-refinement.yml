@@ -1,0 +1,57 @@
+name: Import verified refinement
+
+on:
+  push:
+    branches: [refine-2026-11-14]
+    paths: [.github/workflows/import-refinement.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-refine-2026-11-14
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SOURCE_URL: https://rushing-lyra-rr239hn.tmp.now/nyc-recs-refine-source.tar.gz
+      SOURCE_SHA256: cfb18d370d76adc678c8573fd1d1e27082a6d981cbe8328bb8687ce2ad52b807
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 2
+
+      - name: Import, verify, and commit candidate
+        run: |
+          set -euo pipefail
+          source_dir="$RUNNER_TEMP/source"
+          archive="$RUNNER_TEMP/source.tar.gz"
+          mkdir -p "$source_dir"
+
+          curl --fail --location --retry 3 --retry-all-errors "$SOURCE_URL" -o "$archive"
+          printf '%s  %s\n' "$SOURCE_SHA256" "$archive" | sha256sum --check --strict
+          if tar -tzf "$archive" | grep -Eq '(^/|(^|/)\.\.(/|$))'; then
+            echo 'Unsafe archive path detected.' >&2
+            exit 1
+          fi
+          tar -xzf "$archive" -C "$source_dir"
+          test "$(find "$source_dir" -type f | wc -l)" -eq 50
+
+          rsync -a --delete --exclude='.git/' "$source_dir/" ./
+          test ! -e .github/workflows/import-refinement.yml
+
+          npm ci
+          npm install-scripts ls
+          npm run verify
+          npm audit --audit-level=low
+          npm audit --omit=dev --audit-level=low
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "refactor: normalize source and harden release"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
